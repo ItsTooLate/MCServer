@@ -26,3 +26,36 @@
 2013-04-08 21:08:10 [INFO] Saving chunks for level 'world'/Nether
 2013-04-08 21:08:10 [INFO] Saving chunks for level 'world'/The End
 2013-04-08 21:08:12 [INFO] Stopping server
+2013-04-08 21:30:09 [INFO] Starting minecraft server version 1.5.1
+2013-04-08 21:30:10 [INFO] Loading properties
+2013-04-08 21:30:10 [INFO] Default game type: SURVIVAL
+2013-04-08 21:30:10 [INFO] Generating keypair
+2013-04-08 21:30:10 [INFO] Starting Minecraft server on *:25565
+2013-04-08 21:30:10 [INFO] Preparing level "world"
+2013-04-08 21:30:11 [INFO] Preparing start region for level 0
+2013-04-08 21:30:11 [INFO] Done (0.957s)! For help, type "help" or "?"
+2013-04-08 21:30:17 [INFO] Stopping the server
+2013-04-08 21:30:17 [INFO] Stopping server
+2013-04-08 21:30:17 [INFO] Saving players
+2013-04-08 21:30:17 [INFO] Saving worlds
+2013-04-08 21:30:17 [INFO] Saving chunks for level 'world'/Overworld
+2013-04-08 21:30:17 [INFO] Closing listening thread
+2013-04-08 21:30:17 [INFO] Saving chunks for level 'world'/Nether
+2013-04-08 21:30:17 [INFO] Saving chunks for level 'world'/The End
+2013-04-08 21:32:43 [INFO] Starting minecraft server version 1.5.1
+2013-04-08 21:32:44 [INFO] Loading properties
+2013-04-08 21:32:44 [INFO] Default game type: SURVIVAL
+2013-04-08 21:32:44 [INFO] Generating keypair
+2013-04-08 21:32:44 [INFO] Starting Minecraft server on *:25565
+2013-04-08 21:32:44 [INFO] Preparing level "world"
+2013-04-08 21:32:45 [INFO] Preparing start region for level 0
+2013-04-08 21:32:45 [INFO] Done (1.000s)! For help, type "help" or "?"
+2013-04-08 21:32:51 [INFO] Stopping the server
+2013-04-08 21:32:51 [INFO] Stopping server
+2013-04-08 21:32:51 [INFO] Saving players
+2013-04-08 21:32:51 [INFO] Saving worlds
+2013-04-08 21:32:51 [INFO] Saving chunks for level 'world'/Overworld
+2013-04-08 21:32:51 [INFO] Closing listening thread
+2013-04-08 21:32:51 [INFO] Saving chunks for level 'world'/Nether
+2013-04-08 21:32:51 [INFO] Saving chunks for level 'world'/The End
+2013-04-08 21:32:51 [INFO] Stopping server
