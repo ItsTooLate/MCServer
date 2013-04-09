@@ -145,3 +145,33 @@
 2013-04-08 21:07:42 [FINEST] [FML] Sent event FMLServerStartedEvent to mod FML
 2013-04-08 21:07:42 [FINEST] [Forge] Sending event FMLServerStartedEvent to mod Forge
 2013-04-08 21:07:42 [FINEST] [Forge] Sent event FMLServerStartedEvent to mod Forge
+2013-04-08 21:08:10 [INFO] [Minecraft-Server] Stopping the server
+2013-04-08 21:08:10 [FINEST] [mcp] Sending event FMLServerStoppingEvent to mod mcp
+2013-04-08 21:08:10 [FINEST] [mcp] Sent event FMLServerStoppingEvent to mod mcp
+2013-04-08 21:08:10 [FINEST] [FML] Sending event FMLServerStoppingEvent to mod FML
+2013-04-08 21:08:10 [FINEST] [FML] Sent event FMLServerStoppingEvent to mod FML
+2013-04-08 21:08:10 [FINEST] [Forge] Sending event FMLServerStoppingEvent to mod Forge
+2013-04-08 21:08:10 [FINEST] [Forge] Sent event FMLServerStoppingEvent to mod Forge
+2013-04-08 21:08:10 [INFO] [Minecraft-Server] Stopping server
+2013-04-08 21:08:10 [INFO] [Minecraft-Server] Saving players
+2013-04-08 21:08:10 [INFO] [Minecraft-Server] Saving worlds
+2013-04-08 21:08:10 [INFO] [Minecraft-Server] Saving chunks for level 'world'/Overworld
+2013-04-08 21:08:10 [INFO] [STDERR] java.net.SocketException: Socket closed
+2013-04-08 21:08:10 [INFO] [STDERR] 	at java.net.PlainSocketImpl.socketAccept(Native Method)
+2013-04-08 21:08:10 [INFO] [STDERR] 	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:398)
+2013-04-08 21:08:10 [INFO] [STDERR] 	at java.net.ServerSocket.implAccept(ServerSocket.java:522)
+2013-04-08 21:08:10 [INFO] [STDERR] 	at java.net.ServerSocket.accept(ServerSocket.java:490)
+2013-04-08 21:08:10 [INFO] [STDERR] 	at net.minecraft.server.ServerListenThread.run(ServerListenThread.java:80)
+2013-04-08 21:08:10 [INFO] [Minecraft-Server] Closing listening thread
+2013-04-08 21:08:10 [INFO] [Minecraft-Server] Saving chunks for level 'world'/Nether
+2013-04-08 21:08:10 [INFO] [Minecraft-Server] Saving chunks for level 'world'/The End
+2013-04-08 21:08:12 [INFO] [ForgeModLoader] Unloading dimension 0
+2013-04-08 21:08:12 [INFO] [ForgeModLoader] Unloading dimension -1
+2013-04-08 21:08:12 [INFO] [ForgeModLoader] Unloading dimension 1
+2013-04-08 21:08:12 [FINEST] [mcp] Sending event FMLServerStoppedEvent to mod mcp
+2013-04-08 21:08:12 [FINEST] [mcp] Sent event FMLServerStoppedEvent to mod mcp
+2013-04-08 21:08:12 [FINEST] [FML] Sending event FMLServerStoppedEvent to mod FML
+2013-04-08 21:08:12 [FINEST] [FML] Sent event FMLServerStoppedEvent to mod FML
+2013-04-08 21:08:12 [FINEST] [Forge] Sending event FMLServerStoppedEvent to mod Forge
+2013-04-08 21:08:12 [FINEST] [Forge] Sent event FMLServerStoppedEvent to mod Forge
+2013-04-08 21:08:12 [INFO] [Minecraft-Server] Stopping server
