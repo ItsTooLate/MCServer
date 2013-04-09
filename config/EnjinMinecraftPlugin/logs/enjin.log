@@ -8,3 +8,8 @@ Started logging the Enjin Plugin on 2013/04/08 22:12:18 PDT
 authkey=&collectstats=0&debug=0&autoupdate=1&sendstatsinterval=5&https=1
 2013/04/08 22:12:51 PDT [FINE] Stopping tasks.
 2013/04/08 22:12:51 PDT [FINE] Unregistering events.
+Started logging the Enjin Plugin on 2013/04/09 15:56:03 PDT
+2013/04/09 15:56:03 PDT [FINE] Init vars done.
+2013/04/09 15:56:07 PDT [FINE] Connecting to Enjin to send config...
+2013/04/09 15:56:07 PDT [FINE] Sending content: 
+authkey=&collectstats=0&debug=1&autoupdate=1&sendstatsinterval=5&https=1
