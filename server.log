@@ -1,0 +1,19 @@
+2013-04-08 21:07:29 [INFO] Starting minecraft server version 1.5.1
+2013-04-08 21:07:31 [INFO] Loading properties
+2013-04-08 21:07:31 [WARNING] server.properties does not exist
+2013-04-08 21:07:31 [INFO] Generating new properties file
+2013-04-08 21:07:31 [INFO] Default game type: SURVIVAL
+2013-04-08 21:07:31 [INFO] Generating keypair
+2013-04-08 21:07:33 [INFO] Starting Minecraft server on *:25565
+2013-04-08 21:07:33 [WARNING] Failed to load operators list: java.io.FileNotFoundException: ./ops.txt (No such file or directory)
+2013-04-08 21:07:33 [WARNING] Failed to load white-list: java.io.FileNotFoundException: ./white-list.txt (No such file or directory)
+2013-04-08 21:07:34 [INFO] Preparing level "world"
+2013-04-08 21:07:34 [INFO] Preparing start region for level 0
+2013-04-08 21:07:35 [INFO] Preparing spawn area: 8%
+2013-04-08 21:07:36 [INFO] Preparing spawn area: 19%
+2013-04-08 21:07:37 [INFO] Preparing spawn area: 36%
+2013-04-08 21:07:38 [INFO] Preparing spawn area: 51%
+2013-04-08 21:07:39 [INFO] Preparing spawn area: 65%
+2013-04-08 21:07:40 [INFO] Preparing spawn area: 78%
+2013-04-08 21:07:41 [INFO] Preparing spawn area: 93%
+2013-04-08 21:07:42 [INFO] Done (8.429s)! For help, type "help" or "?"
