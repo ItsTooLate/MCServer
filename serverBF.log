@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2013-04-08T21:48:15</date>
+  <millis>1365482895154</millis>
+  <sequence>133</sequence>
+  <logger>BukkitForge</logger>
+  <level>INFO</level>
+  <class>keepcalm.mods.bukkit.BukkitContainer</class>
+  <method>preInit</method>
+  <thread>18</thread>
+  <message>Initializing configuration...</message>
+</record>
+<record>
+  <date>2013-04-08T21:48:15</date>
+  <millis>1365482895180</millis>
+  <sequence>134</sequence>
+  <logger>BukkitForge</logger>
+  <level>INFO</level>
+  <class>keepcalm.mods.bukkit.BukkitContainer</class>
+  <method>preInit</method>
+  <thread>18</thread>
+  <message>Set UUID to 1365481789874-1856725743-1.4.7</message>
+</record>
+<record>
+  <date>2013-04-08T21:48:15</date>
+  <millis>1365482895306</millis>
+  <sequence>135</sequence>
+  <logger>BukkitForge</logger>
+  <level>FINEST</level>
+  <class>cpw.mods.fml.relauncher.FMLRelaunchLog</class>
+  <method>log</method>
+  <thread>18</thread>
+  <message>Sent event FMLPreInitializationEvent to mod BukkitForge</message>
+</record>
+<record>
+  <date>2013-04-08T21:48:15</date>
+  <millis>1365482895842</millis>
+  <sequence>148</sequence>
+  <logger>BukkitForge</logger>
+  <level>FINEST</level>
+  <class>cpw.mods.fml.relauncher.FMLRelaunchLog</class>
+  <method>log</method>
+  <thread>18</thread>
+  <message>Sending event FMLInitializationEvent to mod BukkitForge</message>
+</record>
+<record>
+  <date>2013-04-08T21:48:15</date>
+  <millis>1365482895842</millis>
+  <sequence>149</sequence>
+  <logger>BukkitForge</logger>
+  <level>INFO</level>
+  <class>keepcalm.mods.bukkit.BukkitContainer</class>
+  <method>init</method>
+  <thread>18</thread>
+  <message>Loading!</message>
+</record>
+<record>
+  <date>2013-04-08T21:48:15</date>
+  <millis>1365482895874</millis>
+  <sequence>168</sequence>
+  <logger>BukkitForge</logger>
+  <level>INFO</level>
+  <class>keepcalm.mods.bukkit.BukkitContainer</class>
+  <method>init</method>
+  <thread>18</thread>
+  <message>Complete! Registering handlers...</message>
+</record>
+<record>
+  <date>2013-04-08T21:48:16</date>
+  <millis>1365482896140</millis>
+  <sequence>172</sequence>
+  <logger>BukkitForge</logger>
+  <level>INFO</level>
+  <class>keepcalm.mods.bukkit.BukkitContainer</class>
+  <method>init</method>
+  <thread>18</thread>
+  <message>Done!</message>
+</record>
+<record>
+  <date>2013-04-08T21:48:16</date>
+  <millis>1365482896140</millis>
+  <sequence>173</sequence>
+  <logger>BukkitForge</logger>
+  <level>FINEST</level>
+  <class>cpw.mods.fml.relauncher.FMLRelaunchLog</class>
+  <method>log</method>
+  <thread>18</thread>
+  <message>Sent event FMLInitializationEvent to mod BukkitForge</message>
+</record>
+<record>
+  <date>2013-04-08T21:48:16</date>
+  <millis>1365482896152</millis>
+  <sequence>186</sequence>
+  <logger>BukkitForge</logger>
+  <level>FINEST</level>
+  <class>cpw.mods.fml.relauncher.FMLRelaunchLog</class>
+  <method>log</method>
+  <thread>18</thread>
+  <message>Sending event IMCEvent to mod BukkitForge</message>
+</record>
+<record>
+  <date>2013-04-08T21:48:16</date>
+  <millis>1365482896152</millis>
+  <sequence>187</sequence>
+  <logger>BukkitForge</logger>
+  <level>FINEST</level>
+  <class>cpw.mods.fml.relauncher.FMLRelaunchLog</class>
+  <method>log</method>
+  <thread>18</thread>
+  <message>Sent event IMCEvent to mod BukkitForge</message>
+</record>
+<record>
+  <date>2013-04-08T21:48:16</date>
+  <millis>1365482896154</millis>
+  <sequence>197</sequence>
+  <logger>BukkitForge</logger>
+  <level>FINEST</level>
+  <class>cpw.mods.fml.relauncher.FMLRelaunchLog</class>
+  <method>log</method>
+  <thread>18</thread>
+  <message>Sending event FMLPostInitializationEvent to mod BukkitForge</message>
+</record>
+<record>
+  <date>2013-04-08T21:48:16</date>
+  <millis>1365482896154</millis>
+  <sequence>198</sequence>
+  <logger>BukkitForge</logger>
+  <level>FINEST</level>
+  <class>cpw.mods.fml.relauncher.FMLRelaunchLog</class>
+  <method>log</method>
+  <thread>18</thread>
+  <message>Sent event FMLPostInitializationEvent to mod BukkitForge</message>
+</record>
+<record>
+  <date>2013-04-08T21:48:16</date>
+  <millis>1365482896155</millis>
+  <sequence>207</sequence>
+  <logger>BukkitForge</logger>
+  <level>FINEST</level>
+  <class>cpw.mods.fml.relauncher.FMLRelaunchLog</class>
+  <method>log</method>
+  <thread>18</thread>
+  <message>Sending event FMLLoadCompleteEvent to mod BukkitForge</message>
+</record>
+<record>
+  <date>2013-04-08T21:48:16</date>
+  <millis>1365482896156</millis>
+  <sequence>208</sequence>
+  <logger>BukkitForge</logger>
+  <level>FINEST</level>
+  <class>cpw.mods.fml.relauncher.FMLRelaunchLog</class>
+  <method>log</method>
+  <thread>18</thread>
+  <message>Sent event FMLLoadCompleteEvent to mod BukkitForge</message>
+</record>
+<record>
+  <date>2013-04-08T21:48:16</date>
+  <millis>1365482896324</millis>
+  <sequence>218</sequence>
+  <logger>BukkitForge</logger>
+  <level>FINEST</level>
+  <class>cpw.mods.fml.relauncher.FMLRelaunchLog</class>
+  <method>log</method>
+  <thread>18</thread>
+  <message>Sending event FMLServerAboutToStartEvent to mod BukkitForge</message>
+</record>
+<record>
+  <date>2013-04-08T21:48:16</date>
+  <millis>1365482896324</millis>
+  <sequence>219</sequence>
+  <logger>BukkitForge</logger>
+  <level>FINEST</level>
+  <class>cpw.mods.fml.relauncher.FMLRelaunchLog</class>
+  <method>log</method>
+  <thread>18</thread>
+  <message>Sent event FMLServerAboutToStartEvent to mod BukkitForge</message>
+</record>
+<record>
+  <date>2013-04-08T21:48:31</date>
+  <millis>1365482911572</millis>
+  <sequence>255</sequence>
+  <logger>BukkitForge</logger>
+  <level>FINEST</level>
+  <class>cpw.mods.fml.relauncher.FMLRelaunchLog</class>
+  <method>log</method>
+  <thread>18</thread>
+  <message>Sending event FMLServerStoppedEvent to mod BukkitForge</message>
+</record>
+<record>
+  <date>2013-04-08T21:48:31</date>
+  <millis>1365482911573</millis>
+  <sequence>256</sequence>
+  <logger>BukkitForge</logger>
+  <level>FINEST</level>
+  <class>cpw.mods.fml.relauncher.FMLRelaunchLog</class>
+  <method>log</method>
+  <thread>18</thread>
+  <message>Sent event FMLServerStoppedEvent to mod BukkitForge</message>
+</record>
+</log>

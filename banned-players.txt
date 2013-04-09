@@ -1,3 +1,10 @@
+<<<<<<< HEAD
 # Updated 4/8/13 10:03 PM by Minecraft 1.5.1
+=======
+# Updated 4/8/13 9:48 PM by Minecraft 1.5.1
+>>>>>>> development
 # victim name | ban date | banned by | banned until | reason
 
+<<<<<<< HEAD|2013-04-08 21:48:16 -0700|(Unknown)|Forever|Banned by an operator.
+=======|2013-04-08 21:48:16 -0700|(Unknown)|Forever|Banned by an operator.
+>>>>>>> Added BukkitForge|2013-04-08 21:48:16 -0700|(Unknown)|Forever|Banned by an operator.
