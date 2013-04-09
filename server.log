@@ -26,6 +26,7 @@
 2013-04-08 21:08:10 [INFO] Saving chunks for level 'world'/Nether
 2013-04-08 21:08:10 [INFO] Saving chunks for level 'world'/The End
 2013-04-08 21:08:12 [INFO] Stopping server
+<<<<<<< HEAD
 2013-04-08 21:30:09 [INFO] Starting minecraft server version 1.5.1
 2013-04-08 21:30:10 [INFO] Loading properties
 2013-04-08 21:30:10 [INFO] Default game type: SURVIVAL
@@ -59,3 +60,47 @@
 2013-04-08 21:32:51 [INFO] Saving chunks for level 'world'/Nether
 2013-04-08 21:32:51 [INFO] Saving chunks for level 'world'/The End
 2013-04-08 21:32:51 [INFO] Stopping server
+=======
+2013-04-08 21:29:48 [INFO] Starting minecraft server version 1.5.1
+2013-04-08 21:29:50 [INFO] Loading properties
+2013-04-08 21:29:50 [INFO] Default game type: SURVIVAL
+2013-04-08 21:29:50 [INFO] Generating keypair
+2013-04-08 21:29:50 [INFO] Starting Minecraft server on *:25565
+2013-04-08 21:29:51 [INFO] Preparing level "world"
+2013-04-08 21:29:51 [SEVERE] Encountered an unexpected exception NullPointerException
+java.lang.NullPointerException
+	at net.minecraftforge.common.DimensionManager.createProviderFor(DimensionManager.java:299)
+	at net.minecraft.world.WorldProvider.func_76570_a(WorldProvider.java:207)
+	at net.minecraft.world.WorldServer.<init>(WorldServer.java:107)
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:237)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:185)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:429)
+	at net.minecraft.server.ThreadMinecraftServer.run(SourceFile:573)
+2013-04-08 21:29:51 [SEVERE] This crash report has been saved to: /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/./crash-reports/crash-2013-04-08_21.29.51-server.txt
+2013-04-08 21:30:13 [INFO] Stopping server
+2013-04-08 21:30:13 [INFO] Saving players
+2013-04-08 21:30:13 [INFO] Saving worlds
+2013-04-08 21:30:13 [INFO] Closing listening thread
+2013-04-08 21:30:21 [INFO] Stopping server
+2013-04-08 21:33:59 [INFO] Starting minecraft server version 1.5.1
+2013-04-08 21:34:01 [INFO] Loading properties
+2013-04-08 21:34:01 [INFO] Default game type: SURVIVAL
+2013-04-08 21:34:01 [INFO] Generating keypair
+2013-04-08 21:34:02 [INFO] Starting Minecraft server on *:25565
+2013-04-08 21:34:02 [INFO] Preparing level "world"
+2013-04-08 21:34:02 [SEVERE] Encountered an unexpected exception NullPointerException
+java.lang.NullPointerException
+	at net.minecraftforge.common.DimensionManager.createProviderFor(DimensionManager.java:299)
+	at net.minecraft.world.WorldProvider.func_76570_a(WorldProvider.java:207)
+	at net.minecraft.world.WorldServer.<init>(WorldServer.java:107)
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:237)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:185)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:429)
+	at net.minecraft.server.ThreadMinecraftServer.run(SourceFile:573)
+2013-04-08 21:34:02 [SEVERE] This crash report has been saved to: /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/./crash-reports/crash-2013-04-08_21.34.02-server.txt
+2013-04-08 21:34:05 [INFO] Stopping server
+2013-04-08 21:34:05 [INFO] Saving players
+2013-04-08 21:34:05 [INFO] Saving worlds
+2013-04-08 21:34:05 [INFO] Closing listening thread
+2013-04-08 21:34:10 [INFO] Stopping server
+>>>>>>> Added BukkitForge
