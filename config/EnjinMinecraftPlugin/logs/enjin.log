@@ -1,0 +1,10 @@
+Started logging the Enjin Plugin on 2013/04/08 22:12:18 PDT
+2013/04/08 22:12:18 PDT [FINE] Init vars done.
+2013/04/08 22:12:20 PDT [FINE] Enabling Ban lister.
+2013/04/08 22:12:20 PDT [FINE] Registering events.
+2013/04/08 22:12:20 PDT [FINE] Auth key is invalid. Wrong length.
+2013/04/08 22:12:21 PDT [FINE] Connecting to Enjin to send config...
+2013/04/08 22:12:21 PDT [FINE] Sending content: 
+authkey=&collectstats=0&debug=0&autoupdate=1&sendstatsinterval=5&https=1
+2013/04/08 22:12:51 PDT [FINE] Stopping tasks.
+2013/04/08 22:12:51 PDT [FINE] Unregistering events.

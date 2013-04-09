@@ -169,3 +169,20 @@ java.lang.NullPointerException
 2013-04-08 21:48:31 [INFO] Closing listening thread
 2013-04-08 21:48:39 [INFO] Stopping server
 >>>>>>> development
+2013-04-08 22:12:17 [INFO] Starting minecraft server version 1.5.1
+2013-04-08 22:12:18 [INFO] Loading properties
+2013-04-08 22:12:18 [INFO] Default game type: SURVIVAL
+2013-04-08 22:12:18 [INFO] Generating keypair
+2013-04-08 22:12:19 [INFO] Starting Minecraft server on *:25565
+2013-04-08 22:12:19 [INFO] Preparing level "world"
+2013-04-08 22:12:20 [INFO] Preparing start region for level 0
+2013-04-08 22:12:20 [INFO] Done (1.462s)! For help, type "help" or "?"
+2013-04-08 22:12:38 [INFO] Unknown command. Try /help for a list of commands.
+2013-04-08 22:12:51 [INFO] Stopping server
+2013-04-08 22:12:51 [INFO] Saving players
+2013-04-08 22:12:51 [INFO] Saving worlds
+2013-04-08 22:12:51 [INFO] Saving chunks for level 'world'/Overworld
+2013-04-08 22:12:51 [INFO] Closing listening thread
+2013-04-08 22:12:51 [INFO] Saving chunks for level 'world'/Nether
+2013-04-08 22:12:51 [INFO] Saving chunks for level 'world'/The End
+2013-04-08 22:12:51 [INFO] Stopping server
