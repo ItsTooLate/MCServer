@@ -8,3 +8,10 @@ Started logging the Enjin Plugin on 2013/04/08 22:12:18 PDT
 authkey=&collectstats=0&debug=0&autoupdate=1&sendstatsinterval=5&https=1
 2013/04/08 22:12:51 PDT [FINE] Stopping tasks.
 2013/04/08 22:12:51 PDT [FINE] Unregistering events.
+Started logging the Enjin Plugin on 2013/04/09 16:24:13 PDT
+2013/04/09 16:24:13 PDT [FINE] Init vars done.
+2013/04/09 16:24:15 PDT [FINE] Enabling Ban lister.
+2013/04/09 16:24:15 PDT [FINE] Registering events.
+2013/04/09 16:24:15 PDT [FINE] Auth key is invalid. Wrong length.
+2013/04/09 16:24:15 PDT [FINE] Stopping tasks.
+2013/04/09 16:24:15 PDT [FINE] Unregistering events.
