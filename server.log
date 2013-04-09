@@ -60,6 +60,7 @@
 2013-04-08 21:32:51 [INFO] Saving chunks for level 'world'/The End
 2013-04-08 21:32:51 [INFO] Stopping server
 <<<<<<< HEAD
+<<<<<<< Updated upstream
 2013-04-08 21:52:18 [INFO] Starting minecraft server version 1.5.1
 2013-04-08 21:52:19 [INFO] Loading properties
 2013-04-08 21:52:19 [INFO] Default game type: SURVIVAL
@@ -103,6 +104,8 @@
 2013-04-08 22:03:53 [INFO] Saving chunks for level 'world'/The End
 2013-04-08 22:03:54 [INFO] Stopping server
 =======
+=======
+>>>>>>> Stashed changes
 =======
 2013-04-08 21:29:48 [INFO] Starting minecraft server version 1.5.1
 2013-04-08 21:29:50 [INFO] Loading properties
@@ -168,6 +171,7 @@ java.lang.NullPointerException
 2013-04-08 21:48:31 [INFO] Saving worlds
 2013-04-08 21:48:31 [INFO] Closing listening thread
 2013-04-08 21:48:39 [INFO] Stopping server
+<<<<<<< Updated upstream
 >>>>>>> development
 2013-04-08 22:12:17 [INFO] Starting minecraft server version 1.5.1
 2013-04-08 22:12:18 [INFO] Loading properties
@@ -268,3 +272,49 @@ Caused by: java.lang.NoSuchMethodError: net.minecraft.server.MinecraftServer.E()
 2013-04-09 16:04:04 [INFO] Saving chunks for level 'world'/Overworld
 2013-04-09 16:04:04 [INFO] Saving chunks for level 'world'/Nether
 2013-04-09 16:04:04 [INFO] Saving chunks for level 'world'/The End
+=======
+=======
+2013-04-08 21:52:18 [INFO] Starting minecraft server version 1.5.1
+2013-04-08 21:52:19 [INFO] Loading properties
+2013-04-08 21:52:19 [INFO] Default game type: SURVIVAL
+2013-04-08 21:52:19 [INFO] Generating keypair
+2013-04-08 21:52:19 [INFO] Starting Minecraft server on *:25565
+2013-04-08 21:52:19 [INFO] Preparing level "world"
+2013-04-08 21:52:20 [INFO] Preparing start region for level 0
+2013-04-08 21:52:21 [INFO] Done (1.426s)! For help, type "help" or "?"
+2013-04-08 21:52:37 [INFO] Stopping server
+2013-04-08 21:52:37 [INFO] Saving players
+2013-04-08 21:52:37 [INFO] Saving worlds
+2013-04-08 21:52:37 [INFO] Saving chunks for level 'world'/Overworld
+2013-04-08 21:52:37 [INFO] Closing listening thread
+2013-04-08 21:52:37 [INFO] Saving chunks for level 'world'/Nether
+2013-04-08 21:52:37 [INFO] Saving chunks for level 'world'/The End
+2013-04-08 21:52:37 [INFO] Stopping server
+2013-04-08 22:03:25 [INFO] Starting minecraft server version 1.5.1
+2013-04-08 22:03:26 [INFO] Loading properties
+2013-04-08 22:03:26 [INFO] Default game type: SURVIVAL
+2013-04-08 22:03:26 [INFO] Generating keypair
+2013-04-08 22:03:27 [INFO] Starting Minecraft server on *:25565
+2013-04-08 22:03:27 [INFO] Preparing level "world"
+2013-04-08 22:03:27 [INFO] Preparing start region for level 0
+2013-04-08 22:03:28 [INFO] Done (1.438s)! For help, type "help" or "?"
+2013-04-08 22:03:37 [INFO] Unknown command. Try /help for a list of commands.
+2013-04-08 22:03:46 [INFO] Unknown command. Try /help for a list of commands.
+2013-04-08 22:03:50 [INFO] --- Showing help page 1 of 6 (/help <page>) ---
+2013-04-08 22:03:50 [INFO] /ban <name> [reason ...]
+2013-04-08 22:03:50 [INFO] /ban-ip <address|name> [reason ...]
+2013-04-08 22:03:50 [INFO] /banlist [ips|players]
+2013-04-08 22:03:50 [INFO] /clear <player> [item] [data]
+2013-04-08 22:03:50 [INFO] /debug
+2013-04-08 22:03:50 [INFO] /defaultgamemode <mode>
+2013-04-08 22:03:50 [INFO] /deop <player>
+2013-04-08 22:03:53 [INFO] Stopping server
+2013-04-08 22:03:53 [INFO] Saving players
+2013-04-08 22:03:53 [INFO] Saving worlds
+2013-04-08 22:03:53 [INFO] Saving chunks for level 'world'/Overworld
+2013-04-08 22:03:53 [INFO] Closing listening thread
+2013-04-08 22:03:53 [INFO] Saving chunks for level 'world'/Nether
+2013-04-08 22:03:53 [INFO] Saving chunks for level 'world'/The End
+2013-04-08 22:03:54 [INFO] Stopping server
+>>>>>>> temp
+>>>>>>> Stashed changes
