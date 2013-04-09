@@ -59,3 +59,19 @@
 2013-04-08 21:32:51 [INFO] Saving chunks for level 'world'/Nether
 2013-04-08 21:32:51 [INFO] Saving chunks for level 'world'/The End
 2013-04-08 21:32:51 [INFO] Stopping server
+2013-04-08 21:52:18 [INFO] Starting minecraft server version 1.5.1
+2013-04-08 21:52:19 [INFO] Loading properties
+2013-04-08 21:52:19 [INFO] Default game type: SURVIVAL
+2013-04-08 21:52:19 [INFO] Generating keypair
+2013-04-08 21:52:19 [INFO] Starting Minecraft server on *:25565
+2013-04-08 21:52:19 [INFO] Preparing level "world"
+2013-04-08 21:52:20 [INFO] Preparing start region for level 0
+2013-04-08 21:52:21 [INFO] Done (1.426s)! For help, type "help" or "?"
+2013-04-08 21:52:37 [INFO] Stopping server
+2013-04-08 21:52:37 [INFO] Saving players
+2013-04-08 21:52:37 [INFO] Saving worlds
+2013-04-08 21:52:37 [INFO] Saving chunks for level 'world'/Overworld
+2013-04-08 21:52:37 [INFO] Closing listening thread
+2013-04-08 21:52:37 [INFO] Saving chunks for level 'world'/Nether
+2013-04-08 21:52:37 [INFO] Saving chunks for level 'world'/The End
+2013-04-08 21:52:37 [INFO] Stopping server
