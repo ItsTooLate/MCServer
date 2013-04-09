@@ -1,152 +1,163 @@
-2013-04-08 21:52:13 [INFO] [ForgeModLoader] Forge Mod Loader version 5.1.10.620 for Minecraft 1.5.1 loading
-2013-04-08 21:52:13 [INFO] [ForgeModLoader] Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_13, running on Mac OS X:x86_64:10.7.5, installed at /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home
-2013-04-08 21:52:13 [FINE] [ForgeModLoader] Java classpath at launch is /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/server.jar
-2013-04-08 21:52:13 [FINE] [ForgeModLoader] Java library path at launch is /Users/patrick/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
-2013-04-08 21:52:13 [FINE] [ForgeModLoader] Enabling runtime deobfuscation
-2013-04-08 21:52:13 [INFO] [ForgeModLoader] Found valid fingerprint for Minecraft Forge. Certificate fingerprint de4cf8a3f3bc15635810044c39240bf96804ea7d
-2013-04-08 21:52:16 [INFO] [STDOUT] 229 recipes
-2013-04-08 21:52:16 [INFO] [STDOUT] 27 achievements
-2013-04-08 21:52:18 [INFO] [Minecraft-Server] Starting minecraft server version 1.5.1
-2013-04-08 21:52:18 [INFO] [MinecraftForge] Attempting early MinecraftForge initialization
-2013-04-08 21:52:18 [INFO] [STDOUT] MinecraftForge v7.7.1.620 Initialized
-2013-04-08 21:52:18 [INFO] [ForgeModLoader] MinecraftForge v7.7.1.620 Initialized
-2013-04-08 21:52:18 [INFO] [STDOUT] Replaced 85 ore recipies
-2013-04-08 21:52:18 [INFO] [MinecraftForge] Completed early MinecraftForge initialization
-2013-04-08 21:52:18 [INFO] [ForgeModLoader] No mod directory found, creating one: /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/mods
-2013-04-08 21:52:18 [INFO] [ForgeModLoader] Mod directory created successfully
-2013-04-08 21:52:18 [INFO] [ForgeModLoader] Reading custom logging properties from /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/config/logging.properties
-2013-04-08 21:52:18 [OFF] [ForgeModLoader] Logging level for ForgeModLoader logging is set to ALL
-2013-04-08 21:52:18 [FINE] [ForgeModLoader] Building injected Mod Containers [cpw.mods.fml.common.FMLDummyContainer, net.minecraftforge.common.ForgeDummyContainer]
-2013-04-08 21:52:18 [FINE] [ForgeModLoader] Attempting to load mods contained in the minecraft jar file and associated classes
-2013-04-08 21:52:18 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/server.jar, examining for mod candidates
-2013-04-08 21:52:18 [FINER] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/argo-small-3.2.jar
-2013-04-08 21:52:18 [FINER] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/guava-14.0-rc3.jar
-2013-04-08 21:52:18 [FINER] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/asm-all-4.1.jar
-2013-04-08 21:52:18 [FINER] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/bcprov-jdk15on-148.jar
-2013-04-08 21:52:18 [FINER] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/deobfuscation_data_1.5.1.zip
-2013-04-08 21:52:18 [FINER] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/scala-library.jar
-2013-04-08 21:52:18 [FINE] [ForgeModLoader] Minecraft jar mods loaded successfully
-2013-04-08 21:52:18 [INFO] [ForgeModLoader] Searching /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/mods for mods
-2013-04-08 21:52:18 [FINE] [ForgeModLoader] Examining file server.jar for potential mods
-2013-04-08 21:52:18 [FINE] [ForgeModLoader] The mod container server.jar appears to be missing an mcmod.info file
-2013-04-08 21:52:19 [INFO] [ForgeModLoader] Forge Mod Loader has identified 3 mods to load
-2013-04-08 21:52:19 [FINER] [ForgeModLoader] Received a system property request ''
-2013-04-08 21:52:19 [FINER] [ForgeModLoader] System property request managing the state of 0 mods
-2013-04-08 21:52:19 [FINE] [ForgeModLoader] After merging, found state information for 0 mods
-2013-04-08 21:52:19 [FINE] [ForgeModLoader] Reloading logging properties from /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/config/logging.properties
-2013-04-08 21:52:19 [FINE] [ForgeModLoader] Reloaded logging properties
-2013-04-08 21:52:19 [FINE] [mcp] Mod Logging channel mcp configured at default level.
-2013-04-08 21:52:19 [INFO] [mcp] Activating mod mcp
-2013-04-08 21:52:19 [FINE] [FML] Mod Logging channel FML configured at default level.
-2013-04-08 21:52:19 [INFO] [FML] Activating mod FML
-2013-04-08 21:52:19 [FINE] [Forge] Mod Logging channel Forge configured at default level.
-2013-04-08 21:52:19 [INFO] [Forge] Activating mod Forge
-2013-04-08 21:52:19 [FINER] [ForgeModLoader] Verifying mod requirements are satisfied
-2013-04-08 21:52:19 [FINER] [ForgeModLoader] All mod requirements are satisfied
-2013-04-08 21:52:19 [FINER] [ForgeModLoader] Sorting mods into an ordered list
-2013-04-08 21:52:19 [FINER] [ForgeModLoader] Mod sorting completed successfully
-2013-04-08 21:52:19 [FINE] [ForgeModLoader] Mod sorting data
-2013-04-08 21:52:19 [FINE] [ForgeModLoader] No user mods found to sort
-2013-04-08 21:52:19 [FINEST] [mcp] Sending event FMLConstructionEvent to mod mcp
-2013-04-08 21:52:19 [FINEST] [mcp] Sent event FMLConstructionEvent to mod mcp
-2013-04-08 21:52:19 [FINEST] [FML] Sending event FMLConstructionEvent to mod FML
-2013-04-08 21:52:19 [FINEST] [FML] Sent event FMLConstructionEvent to mod FML
-2013-04-08 21:52:19 [FINEST] [Forge] Sending event FMLConstructionEvent to mod Forge
-2013-04-08 21:52:19 [FINEST] [Forge] Sent event FMLConstructionEvent to mod Forge
-2013-04-08 21:52:19 [FINE] [ForgeModLoader] Mod signature data
-2013-04-08 21:52:19 [FINE] [ForgeModLoader] 	mcp(Minecraft Coder Pack:7.44): minecraft.jar (NO VALID CERTIFICATE FOUND)
-2013-04-08 21:52:19 [FINE] [ForgeModLoader] 	FML(Forge Mod Loader:5.1.10.620): coremods (de4cf8a3f3bc15635810044c39240bf96804ea7d)
-2013-04-08 21:52:19 [FINE] [ForgeModLoader] 	Forge(Minecraft Forge:7.7.1.620): coremods (NO VALID CERTIFICATE FOUND)
-2013-04-08 21:52:19 [FINEST] [mcp] Sending event FMLPreInitializationEvent to mod mcp
-2013-04-08 21:52:19 [FINEST] [mcp] Sent event FMLPreInitializationEvent to mod mcp
-2013-04-08 21:52:19 [FINEST] [FML] Sending event FMLPreInitializationEvent to mod FML
-2013-04-08 21:52:19 [FINEST] [FML] Sent event FMLPreInitializationEvent to mod FML
-2013-04-08 21:52:19 [FINEST] [Forge] Sending event FMLPreInitializationEvent to mod Forge
-2013-04-08 21:52:19 [INFO] [ForgeModLoader] Configured a dormant chunk cache size of 0
-2013-04-08 21:52:19 [FINEST] [Forge] Sent event FMLPreInitializationEvent to mod Forge
-2013-04-08 21:52:19 [INFO] [Minecraft-Server] Loading properties
-2013-04-08 21:52:19 [INFO] [Minecraft-Server] Default game type: SURVIVAL
-2013-04-08 21:52:19 [INFO] [Minecraft-Server] Generating keypair
-2013-04-08 21:52:19 [INFO] [Minecraft-Server] Starting Minecraft server on *:25565
-2013-04-08 21:52:19 [FINEST] [mcp] Sending event FMLInitializationEvent to mod mcp
-2013-04-08 21:52:19 [FINEST] [mcp] Sent event FMLInitializationEvent to mod mcp
-2013-04-08 21:52:19 [FINEST] [FML] Sending event FMLInitializationEvent to mod FML
-2013-04-08 21:52:19 [FINEST] [FML] Sent event FMLInitializationEvent to mod FML
-2013-04-08 21:52:19 [FINEST] [Forge] Sending event FMLInitializationEvent to mod Forge
-2013-04-08 21:52:19 [FINEST] [Forge] Sent event FMLInitializationEvent to mod Forge
-2013-04-08 21:52:19 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod mcp
-2013-04-08 21:52:19 [FINEST] [mcp] Sending event IMCEvent to mod mcp
-2013-04-08 21:52:19 [FINEST] [mcp] Sent event IMCEvent to mod mcp
-2013-04-08 21:52:19 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod FML
-2013-04-08 21:52:19 [FINEST] [FML] Sending event IMCEvent to mod FML
-2013-04-08 21:52:19 [FINEST] [FML] Sent event IMCEvent to mod FML
-2013-04-08 21:52:19 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod Forge
-2013-04-08 21:52:19 [FINEST] [Forge] Sending event IMCEvent to mod Forge
-2013-04-08 21:52:19 [FINEST] [Forge] Sent event IMCEvent to mod Forge
-2013-04-08 21:52:19 [FINEST] [mcp] Sending event FMLPostInitializationEvent to mod mcp
-2013-04-08 21:52:19 [FINEST] [mcp] Sent event FMLPostInitializationEvent to mod mcp
-2013-04-08 21:52:19 [FINEST] [FML] Sending event FMLPostInitializationEvent to mod FML
-2013-04-08 21:52:19 [FINEST] [FML] Sent event FMLPostInitializationEvent to mod FML
-2013-04-08 21:52:19 [FINEST] [Forge] Sending event FMLPostInitializationEvent to mod Forge
-2013-04-08 21:52:19 [FINEST] [Forge] Sent event FMLPostInitializationEvent to mod Forge
-2013-04-08 21:52:19 [FINEST] [mcp] Sending event FMLLoadCompleteEvent to mod mcp
-2013-04-08 21:52:19 [FINEST] [mcp] Sent event FMLLoadCompleteEvent to mod mcp
-2013-04-08 21:52:19 [FINEST] [FML] Sending event FMLLoadCompleteEvent to mod FML
-2013-04-08 21:52:19 [FINEST] [FML] Sent event FMLLoadCompleteEvent to mod FML
-2013-04-08 21:52:19 [FINEST] [Forge] Sending event FMLLoadCompleteEvent to mod Forge
-2013-04-08 21:52:19 [FINEST] [Forge] Sent event FMLLoadCompleteEvent to mod Forge
-2013-04-08 21:52:19 [INFO] [ForgeModLoader] Forge Mod Loader has successfully loaded 3 mods
-2013-04-08 21:52:19 [FINEST] [mcp] Sending event FMLServerAboutToStartEvent to mod mcp
-2013-04-08 21:52:19 [FINEST] [mcp] Sent event FMLServerAboutToStartEvent to mod mcp
-2013-04-08 21:52:19 [FINEST] [FML] Sending event FMLServerAboutToStartEvent to mod FML
-2013-04-08 21:52:19 [FINEST] [FML] Sent event FMLServerAboutToStartEvent to mod FML
-2013-04-08 21:52:19 [FINEST] [Forge] Sending event FMLServerAboutToStartEvent to mod Forge
-2013-04-08 21:52:19 [FINEST] [Forge] Sent event FMLServerAboutToStartEvent to mod Forge
-2013-04-08 21:52:19 [INFO] [Minecraft-Server] Preparing level "world"
-2013-04-08 21:52:20 [FINE] [fml.ItemTracker] The difference set is equal
-2013-04-08 21:52:20 [INFO] [ForgeModLoader] Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@364032b7)
-2013-04-08 21:52:20 [INFO] [ForgeModLoader] Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@364032b7)
-2013-04-08 21:52:20 [INFO] [ForgeModLoader] Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@364032b7)
-2013-04-08 21:52:20 [INFO] [Minecraft-Server] Preparing start region for level 0
-2013-04-08 21:52:21 [INFO] [Minecraft-Server] Done (1.426s)! For help, type "help" or "?"
-2013-04-08 21:52:21 [FINEST] [mcp] Sending event FMLServerStartingEvent to mod mcp
-2013-04-08 21:52:21 [FINEST] [mcp] Sent event FMLServerStartingEvent to mod mcp
-2013-04-08 21:52:21 [FINEST] [FML] Sending event FMLServerStartingEvent to mod FML
-2013-04-08 21:52:21 [FINEST] [FML] Sent event FMLServerStartingEvent to mod FML
-2013-04-08 21:52:21 [FINEST] [Forge] Sending event FMLServerStartingEvent to mod Forge
-2013-04-08 21:52:21 [FINEST] [Forge] Sent event FMLServerStartingEvent to mod Forge
-2013-04-08 21:52:21 [FINEST] [mcp] Sending event FMLServerStartedEvent to mod mcp
-2013-04-08 21:52:21 [FINEST] [mcp] Sent event FMLServerStartedEvent to mod mcp
-2013-04-08 21:52:21 [FINEST] [FML] Sending event FMLServerStartedEvent to mod FML
-2013-04-08 21:52:21 [FINEST] [FML] Sent event FMLServerStartedEvent to mod FML
-2013-04-08 21:52:21 [FINEST] [Forge] Sending event FMLServerStartedEvent to mod Forge
-2013-04-08 21:52:21 [FINEST] [Forge] Sent event FMLServerStartedEvent to mod Forge
-2013-04-08 21:52:37 [FINEST] [mcp] Sending event FMLServerStoppingEvent to mod mcp
-2013-04-08 21:52:37 [FINEST] [mcp] Sent event FMLServerStoppingEvent to mod mcp
-2013-04-08 21:52:37 [FINEST] [FML] Sending event FMLServerStoppingEvent to mod FML
-2013-04-08 21:52:37 [FINEST] [FML] Sent event FMLServerStoppingEvent to mod FML
-2013-04-08 21:52:37 [FINEST] [Forge] Sending event FMLServerStoppingEvent to mod Forge
-2013-04-08 21:52:37 [FINEST] [Forge] Sent event FMLServerStoppingEvent to mod Forge
-2013-04-08 21:52:37 [INFO] [Minecraft-Server] Stopping server
-2013-04-08 21:52:37 [INFO] [Minecraft-Server] Saving players
-2013-04-08 21:52:37 [INFO] [STDERR] java.net.SocketException: Socket closed
-2013-04-08 21:52:37 [INFO] [Minecraft-Server] Saving worlds
-2013-04-08 21:52:37 [INFO] [STDERR] 	at java.net.PlainSocketImpl.socketAccept(Native Method)
-2013-04-08 21:52:37 [INFO] [Minecraft-Server] Saving chunks for level 'world'/Overworld
-2013-04-08 21:52:37 [INFO] [STDERR] 	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:398)
-2013-04-08 21:52:37 [INFO] [STDERR] 	at java.net.ServerSocket.implAccept(ServerSocket.java:522)
-2013-04-08 21:52:37 [INFO] [STDERR] 	at java.net.ServerSocket.accept(ServerSocket.java:490)
-2013-04-08 21:52:37 [INFO] [STDERR] 	at net.minecraft.server.ServerListenThread.run(ServerListenThread.java:80)
-2013-04-08 21:52:37 [INFO] [Minecraft-Server] Closing listening thread
-2013-04-08 21:52:37 [INFO] [Minecraft-Server] Saving chunks for level 'world'/Nether
-2013-04-08 21:52:37 [INFO] [Minecraft-Server] Saving chunks for level 'world'/The End
-2013-04-08 21:52:37 [INFO] [ForgeModLoader] Unloading dimension 0
-2013-04-08 21:52:37 [INFO] [ForgeModLoader] Unloading dimension -1
-2013-04-08 21:52:37 [INFO] [ForgeModLoader] Unloading dimension 1
-2013-04-08 21:52:37 [FINEST] [mcp] Sending event FMLServerStoppedEvent to mod mcp
-2013-04-08 21:52:37 [FINEST] [mcp] Sent event FMLServerStoppedEvent to mod mcp
-2013-04-08 21:52:37 [FINEST] [FML] Sending event FMLServerStoppedEvent to mod FML
-2013-04-08 21:52:37 [FINEST] [FML] Sent event FMLServerStoppedEvent to mod FML
-2013-04-08 21:52:37 [FINEST] [Forge] Sending event FMLServerStoppedEvent to mod Forge
-2013-04-08 21:52:37 [FINEST] [Forge] Sent event FMLServerStoppedEvent to mod Forge
-2013-04-08 21:52:37 [INFO] [Minecraft-Server] Stopping server
+2013-04-08 22:03:20 [INFO] [ForgeModLoader] Forge Mod Loader version 5.1.10.620 for Minecraft 1.5.1 loading
+2013-04-08 22:03:20 [INFO] [ForgeModLoader] Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_13, running on Mac OS X:x86_64:10.7.5, installed at /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home
+2013-04-08 22:03:20 [FINE] [ForgeModLoader] Java classpath at launch is /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/server.jar
+2013-04-08 22:03:20 [FINE] [ForgeModLoader] Java library path at launch is /Users/patrick/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2013-04-08 22:03:20 [FINE] [ForgeModLoader] Enabling runtime deobfuscation
+2013-04-08 22:03:20 [INFO] [ForgeModLoader] Found valid fingerprint for Minecraft Forge. Certificate fingerprint de4cf8a3f3bc15635810044c39240bf96804ea7d
+2013-04-08 22:03:23 [INFO] [STDOUT] 229 recipes
+2013-04-08 22:03:23 [INFO] [STDOUT] 27 achievements
+2013-04-08 22:03:25 [INFO] [Minecraft-Server] Starting minecraft server version 1.5.1
+2013-04-08 22:03:25 [INFO] [MinecraftForge] Attempting early MinecraftForge initialization
+2013-04-08 22:03:25 [INFO] [STDOUT] MinecraftForge v7.7.1.620 Initialized
+2013-04-08 22:03:25 [INFO] [ForgeModLoader] MinecraftForge v7.7.1.620 Initialized
+2013-04-08 22:03:25 [INFO] [STDOUT] Replaced 85 ore recipies
+2013-04-08 22:03:25 [INFO] [MinecraftForge] Completed early MinecraftForge initialization
+2013-04-08 22:03:25 [INFO] [ForgeModLoader] No mod directory found, creating one: /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/mods
+2013-04-08 22:03:25 [INFO] [ForgeModLoader] Mod directory created successfully
+2013-04-08 22:03:25 [INFO] [ForgeModLoader] Reading custom logging properties from /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/config/logging.properties
+2013-04-08 22:03:25 [OFF] [ForgeModLoader] Logging level for ForgeModLoader logging is set to ALL
+2013-04-08 22:03:26 [FINE] [ForgeModLoader] Building injected Mod Containers [cpw.mods.fml.common.FMLDummyContainer, net.minecraftforge.common.ForgeDummyContainer]
+2013-04-08 22:03:26 [FINE] [ForgeModLoader] Attempting to load mods contained in the minecraft jar file and associated classes
+2013-04-08 22:03:26 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/server.jar, examining for mod candidates
+2013-04-08 22:03:26 [FINER] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/argo-small-3.2.jar
+2013-04-08 22:03:26 [FINER] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/guava-14.0-rc3.jar
+2013-04-08 22:03:26 [FINER] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/asm-all-4.1.jar
+2013-04-08 22:03:26 [FINER] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/bcprov-jdk15on-148.jar
+2013-04-08 22:03:26 [FINER] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/deobfuscation_data_1.5.1.zip
+2013-04-08 22:03:26 [FINER] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/scala-library.jar
+2013-04-08 22:03:26 [FINE] [ForgeModLoader] Minecraft jar mods loaded successfully
+2013-04-08 22:03:26 [INFO] [ForgeModLoader] Searching /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/mods for mods
+2013-04-08 22:03:26 [FINE] [ForgeModLoader] Examining file server.jar for potential mods
+2013-04-08 22:03:26 [FINE] [ForgeModLoader] The mod container server.jar appears to be missing an mcmod.info file
+2013-04-08 22:03:26 [INFO] [ForgeModLoader] Forge Mod Loader has identified 3 mods to load
+2013-04-08 22:03:26 [FINER] [ForgeModLoader] Received a system property request ''
+2013-04-08 22:03:26 [FINER] [ForgeModLoader] System property request managing the state of 0 mods
+2013-04-08 22:03:26 [FINE] [ForgeModLoader] After merging, found state information for 0 mods
+2013-04-08 22:03:26 [FINE] [ForgeModLoader] Reloading logging properties from /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/config/logging.properties
+2013-04-08 22:03:26 [FINE] [ForgeModLoader] Reloaded logging properties
+2013-04-08 22:03:26 [FINE] [mcp] Mod Logging channel mcp configured at default level.
+2013-04-08 22:03:26 [INFO] [mcp] Activating mod mcp
+2013-04-08 22:03:26 [FINE] [FML] Mod Logging channel FML configured at default level.
+2013-04-08 22:03:26 [INFO] [FML] Activating mod FML
+2013-04-08 22:03:26 [FINE] [Forge] Mod Logging channel Forge configured at default level.
+2013-04-08 22:03:26 [INFO] [Forge] Activating mod Forge
+2013-04-08 22:03:26 [FINER] [ForgeModLoader] Verifying mod requirements are satisfied
+2013-04-08 22:03:26 [FINER] [ForgeModLoader] All mod requirements are satisfied
+2013-04-08 22:03:26 [FINER] [ForgeModLoader] Sorting mods into an ordered list
+2013-04-08 22:03:26 [FINER] [ForgeModLoader] Mod sorting completed successfully
+2013-04-08 22:03:26 [FINE] [ForgeModLoader] Mod sorting data
+2013-04-08 22:03:26 [FINE] [ForgeModLoader] No user mods found to sort
+2013-04-08 22:03:26 [FINEST] [mcp] Sending event FMLConstructionEvent to mod mcp
+2013-04-08 22:03:26 [FINEST] [mcp] Sent event FMLConstructionEvent to mod mcp
+2013-04-08 22:03:26 [FINEST] [FML] Sending event FMLConstructionEvent to mod FML
+2013-04-08 22:03:26 [FINEST] [FML] Sent event FMLConstructionEvent to mod FML
+2013-04-08 22:03:26 [FINEST] [Forge] Sending event FMLConstructionEvent to mod Forge
+2013-04-08 22:03:26 [FINEST] [Forge] Sent event FMLConstructionEvent to mod Forge
+2013-04-08 22:03:26 [FINE] [ForgeModLoader] Mod signature data
+2013-04-08 22:03:26 [FINE] [ForgeModLoader] 	mcp(Minecraft Coder Pack:7.44): minecraft.jar (NO VALID CERTIFICATE FOUND)
+2013-04-08 22:03:26 [FINE] [ForgeModLoader] 	FML(Forge Mod Loader:5.1.10.620): coremods (de4cf8a3f3bc15635810044c39240bf96804ea7d)
+2013-04-08 22:03:26 [FINE] [ForgeModLoader] 	Forge(Minecraft Forge:7.7.1.620): coremods (NO VALID CERTIFICATE FOUND)
+2013-04-08 22:03:26 [FINEST] [mcp] Sending event FMLPreInitializationEvent to mod mcp
+2013-04-08 22:03:26 [FINEST] [mcp] Sent event FMLPreInitializationEvent to mod mcp
+2013-04-08 22:03:26 [FINEST] [FML] Sending event FMLPreInitializationEvent to mod FML
+2013-04-08 22:03:26 [FINEST] [FML] Sent event FMLPreInitializationEvent to mod FML
+2013-04-08 22:03:26 [FINEST] [Forge] Sending event FMLPreInitializationEvent to mod Forge
+2013-04-08 22:03:26 [INFO] [ForgeModLoader] Configured a dormant chunk cache size of 0
+2013-04-08 22:03:26 [FINEST] [Forge] Sent event FMLPreInitializationEvent to mod Forge
+2013-04-08 22:03:26 [INFO] [Minecraft-Server] Loading properties
+2013-04-08 22:03:26 [INFO] [Minecraft-Server] Default game type: SURVIVAL
+2013-04-08 22:03:26 [INFO] [Minecraft-Server] Generating keypair
+2013-04-08 22:03:27 [INFO] [Minecraft-Server] Starting Minecraft server on *:25565
+2013-04-08 22:03:27 [FINEST] [mcp] Sending event FMLInitializationEvent to mod mcp
+2013-04-08 22:03:27 [FINEST] [mcp] Sent event FMLInitializationEvent to mod mcp
+2013-04-08 22:03:27 [FINEST] [FML] Sending event FMLInitializationEvent to mod FML
+2013-04-08 22:03:27 [FINEST] [FML] Sent event FMLInitializationEvent to mod FML
+2013-04-08 22:03:27 [FINEST] [Forge] Sending event FMLInitializationEvent to mod Forge
+2013-04-08 22:03:27 [FINEST] [Forge] Sent event FMLInitializationEvent to mod Forge
+2013-04-08 22:03:27 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod mcp
+2013-04-08 22:03:27 [FINEST] [mcp] Sending event IMCEvent to mod mcp
+2013-04-08 22:03:27 [FINEST] [mcp] Sent event IMCEvent to mod mcp
+2013-04-08 22:03:27 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod FML
+2013-04-08 22:03:27 [FINEST] [FML] Sending event IMCEvent to mod FML
+2013-04-08 22:03:27 [FINEST] [FML] Sent event IMCEvent to mod FML
+2013-04-08 22:03:27 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod Forge
+2013-04-08 22:03:27 [FINEST] [Forge] Sending event IMCEvent to mod Forge
+2013-04-08 22:03:27 [FINEST] [Forge] Sent event IMCEvent to mod Forge
+2013-04-08 22:03:27 [FINEST] [mcp] Sending event FMLPostInitializationEvent to mod mcp
+2013-04-08 22:03:27 [FINEST] [mcp] Sent event FMLPostInitializationEvent to mod mcp
+2013-04-08 22:03:27 [FINEST] [FML] Sending event FMLPostInitializationEvent to mod FML
+2013-04-08 22:03:27 [FINEST] [FML] Sent event FMLPostInitializationEvent to mod FML
+2013-04-08 22:03:27 [FINEST] [Forge] Sending event FMLPostInitializationEvent to mod Forge
+2013-04-08 22:03:27 [FINEST] [Forge] Sent event FMLPostInitializationEvent to mod Forge
+2013-04-08 22:03:27 [FINEST] [mcp] Sending event FMLLoadCompleteEvent to mod mcp
+2013-04-08 22:03:27 [FINEST] [mcp] Sent event FMLLoadCompleteEvent to mod mcp
+2013-04-08 22:03:27 [FINEST] [FML] Sending event FMLLoadCompleteEvent to mod FML
+2013-04-08 22:03:27 [FINEST] [FML] Sent event FMLLoadCompleteEvent to mod FML
+2013-04-08 22:03:27 [FINEST] [Forge] Sending event FMLLoadCompleteEvent to mod Forge
+2013-04-08 22:03:27 [FINEST] [Forge] Sent event FMLLoadCompleteEvent to mod Forge
+2013-04-08 22:03:27 [INFO] [ForgeModLoader] Forge Mod Loader has successfully loaded 3 mods
+2013-04-08 22:03:27 [FINEST] [mcp] Sending event FMLServerAboutToStartEvent to mod mcp
+2013-04-08 22:03:27 [FINEST] [mcp] Sent event FMLServerAboutToStartEvent to mod mcp
+2013-04-08 22:03:27 [FINEST] [FML] Sending event FMLServerAboutToStartEvent to mod FML
+2013-04-08 22:03:27 [FINEST] [FML] Sent event FMLServerAboutToStartEvent to mod FML
+2013-04-08 22:03:27 [FINEST] [Forge] Sending event FMLServerAboutToStartEvent to mod Forge
+2013-04-08 22:03:27 [FINEST] [Forge] Sent event FMLServerAboutToStartEvent to mod Forge
+2013-04-08 22:03:27 [INFO] [Minecraft-Server] Preparing level "world"
+2013-04-08 22:03:27 [FINE] [fml.ItemTracker] The difference set is equal
+2013-04-08 22:03:27 [INFO] [ForgeModLoader] Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@6596e0b0)
+2013-04-08 22:03:27 [INFO] [ForgeModLoader] Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@6596e0b0)
+2013-04-08 22:03:27 [INFO] [ForgeModLoader] Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@6596e0b0)
+2013-04-08 22:03:27 [INFO] [Minecraft-Server] Preparing start region for level 0
+2013-04-08 22:03:28 [INFO] [Minecraft-Server] Done (1.438s)! For help, type "help" or "?"
+2013-04-08 22:03:28 [FINEST] [mcp] Sending event FMLServerStartingEvent to mod mcp
+2013-04-08 22:03:28 [FINEST] [mcp] Sent event FMLServerStartingEvent to mod mcp
+2013-04-08 22:03:28 [FINEST] [FML] Sending event FMLServerStartingEvent to mod FML
+2013-04-08 22:03:28 [FINEST] [FML] Sent event FMLServerStartingEvent to mod FML
+2013-04-08 22:03:28 [FINEST] [Forge] Sending event FMLServerStartingEvent to mod Forge
+2013-04-08 22:03:28 [FINEST] [Forge] Sent event FMLServerStartingEvent to mod Forge
+2013-04-08 22:03:28 [FINEST] [mcp] Sending event FMLServerStartedEvent to mod mcp
+2013-04-08 22:03:28 [FINEST] [mcp] Sent event FMLServerStartedEvent to mod mcp
+2013-04-08 22:03:28 [FINEST] [FML] Sending event FMLServerStartedEvent to mod FML
+2013-04-08 22:03:28 [FINEST] [FML] Sent event FMLServerStartedEvent to mod FML
+2013-04-08 22:03:28 [FINEST] [Forge] Sending event FMLServerStartedEvent to mod Forge
+2013-04-08 22:03:28 [FINEST] [Forge] Sent event FMLServerStartedEvent to mod Forge
+2013-04-08 22:03:37 [INFO] [Minecraft-Server] Unknown command. Try /help for a list of commands.
+2013-04-08 22:03:46 [INFO] [Minecraft-Server] Unknown command. Try /help for a list of commands.
+2013-04-08 22:03:50 [INFO] [Minecraft-Server] --- Showing help page 1 of 6 (/help <page>) ---
+2013-04-08 22:03:50 [INFO] [Minecraft-Server] /ban <name> [reason ...]
+2013-04-08 22:03:50 [INFO] [Minecraft-Server] /ban-ip <address|name> [reason ...]
+2013-04-08 22:03:50 [INFO] [Minecraft-Server] /banlist [ips|players]
+2013-04-08 22:03:50 [INFO] [Minecraft-Server] /clear <player> [item] [data]
+2013-04-08 22:03:50 [INFO] [Minecraft-Server] /debug
+2013-04-08 22:03:50 [INFO] [Minecraft-Server] /defaultgamemode <mode>
+2013-04-08 22:03:50 [INFO] [Minecraft-Server] /deop <player>
+2013-04-08 22:03:53 [FINEST] [mcp] Sending event FMLServerStoppingEvent to mod mcp
+2013-04-08 22:03:53 [FINEST] [mcp] Sent event FMLServerStoppingEvent to mod mcp
+2013-04-08 22:03:53 [FINEST] [FML] Sending event FMLServerStoppingEvent to mod FML
+2013-04-08 22:03:53 [FINEST] [FML] Sent event FMLServerStoppingEvent to mod FML
+2013-04-08 22:03:53 [FINEST] [Forge] Sending event FMLServerStoppingEvent to mod Forge
+2013-04-08 22:03:53 [FINEST] [Forge] Sent event FMLServerStoppingEvent to mod Forge
+2013-04-08 22:03:53 [INFO] [Minecraft-Server] Stopping server
+2013-04-08 22:03:53 [INFO] [Minecraft-Server] Saving players
+2013-04-08 22:03:53 [INFO] [STDERR] java.net.SocketException: Socket closed
+2013-04-08 22:03:53 [INFO] [Minecraft-Server] Saving worlds
+2013-04-08 22:03:53 [INFO] [STDERR] 	at java.net.PlainSocketImpl.socketAccept(Native Method)
+2013-04-08 22:03:53 [INFO] [Minecraft-Server] Saving chunks for level 'world'/Overworld
+2013-04-08 22:03:53 [INFO] [STDERR] 	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:398)
+2013-04-08 22:03:53 [INFO] [STDERR] 	at java.net.ServerSocket.implAccept(ServerSocket.java:522)
+2013-04-08 22:03:53 [INFO] [STDERR] 	at java.net.ServerSocket.accept(ServerSocket.java:490)
+2013-04-08 22:03:53 [INFO] [STDERR] 	at net.minecraft.server.ServerListenThread.run(ServerListenThread.java:80)
+2013-04-08 22:03:53 [INFO] [Minecraft-Server] Closing listening thread
+2013-04-08 22:03:53 [INFO] [Minecraft-Server] Saving chunks for level 'world'/Nether
+2013-04-08 22:03:53 [INFO] [Minecraft-Server] Saving chunks for level 'world'/The End
+2013-04-08 22:03:54 [INFO] [ForgeModLoader] Unloading dimension 0
+2013-04-08 22:03:54 [INFO] [ForgeModLoader] Unloading dimension -1
+2013-04-08 22:03:54 [INFO] [ForgeModLoader] Unloading dimension 1
+2013-04-08 22:03:54 [FINEST] [mcp] Sending event FMLServerStoppedEvent to mod mcp
+2013-04-08 22:03:54 [FINEST] [mcp] Sent event FMLServerStoppedEvent to mod mcp
+2013-04-08 22:03:54 [FINEST] [FML] Sending event FMLServerStoppedEvent to mod FML
+2013-04-08 22:03:54 [FINEST] [FML] Sent event FMLServerStoppedEvent to mod FML
+2013-04-08 22:03:54 [FINEST] [Forge] Sending event FMLServerStoppedEvent to mod Forge
+2013-04-08 22:03:54 [FINEST] [Forge] Sent event FMLServerStoppedEvent to mod Forge
+2013-04-08 22:03:54 [INFO] [Minecraft-Server] Stopping server
+2013-04-08 22:03:54 [INFO] [Minecraft-Server] Saving players
