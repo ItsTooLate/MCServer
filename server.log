@@ -318,3 +318,55 @@ Caused by: java.lang.NoSuchMethodError: net.minecraft.server.MinecraftServer.E()
 2013-04-08 22:03:54 [INFO] Stopping server
 >>>>>>> temp
 >>>>>>> Stashed changes
+2013-04-09 16:33:23 [INFO] Starting minecraft server version 1.4.7
+2013-04-09 16:33:24 [SEVERE] BukkitForge plugins may misbehave when using the gui! Run the server with 'nogui'!
+2013-04-09 16:33:25 [INFO] Loading properties
+2013-04-09 16:33:25 [INFO] Default game type: SURVIVAL
+2013-04-09 16:33:25 [INFO] Generating keypair
+2013-04-09 16:33:25 [INFO] Starting Minecraft server on *:25565
+2013-04-09 16:33:26 [INFO] Preparing level "world"
+2013-04-09 16:33:26 [INFO] Preparing start region for level 0
+2013-04-09 16:33:27 [INFO] Done (1.364s)! For help, type "help" or "?"
+2013-04-09 16:33:27 [SEVERE] Encountered an unexpected exception LoaderException
+cpw.mods.fml.common.LoaderException: java.lang.NoSuchMethodError: net.minecraft.server.MinecraftServer.E()Laa;
+	at cpw.mods.fml.common.LoadController.transition(LoadController.java:117)
+	at cpw.mods.fml.common.Loader.serverStarting(Loader.java:701)
+	at cpw.mods.fml.common.FMLCommonHandler.handleServerStarting(FMLCommonHandler.java:309)
+	at ho.c(DedicatedServer.java:198)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:458)
+	at fy.run(SourceFile:849)
+Caused by: java.lang.NoSuchMethodError: net.minecraft.server.MinecraftServer.E()Laa;
+	at com.enjin.officialplugin.EnjinMinecraftPlugin.serverStarting(EnjinMinecraftPlugin.java:237)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:485)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:69)
+	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:317)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:300)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:268)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:69)
+	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:317)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:300)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:268)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:83)
+	at cpw.mods.fml.common.Loader.serverStarting(Loader.java:700)
+	... 4 more
+2013-04-09 16:33:27 [SEVERE] This crash report has been saved to: /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/./crash-reports/crash-2013-04-09_16.33.27-server.txt
+2013-04-09 16:34:00 [INFO] Stopping server
+2013-04-09 16:34:00 [INFO] Saving players
+2013-04-09 16:34:00 [INFO] Saving worlds
+2013-04-09 16:34:00 [INFO] Saving chunks for level 'world'/Overworld
+2013-04-09 16:34:00 [INFO] Saving chunks for level 'world'/Nether
+2013-04-09 16:34:00 [INFO] Saving chunks for level 'world'/The End
