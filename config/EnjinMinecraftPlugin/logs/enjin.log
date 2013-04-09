@@ -23,3 +23,8 @@ Started logging the Enjin Plugin on 2013/04/09 15:56:03 PDT
 2013/04/09 15:56:07 PDT [FINE] Sending content: 
 authkey=&collectstats=0&debug=1&autoupdate=1&sendstatsinterval=5&https=1
 >>>>>>> development
+Started logging the Enjin Plugin on 2013/04/09 16:40:36 PDT
+2013/04/09 16:40:36 PDT [FINE] Init vars done.
+2013/04/09 16:40:39 PDT [FINE] Connecting to Enjin to send config...
+2013/04/09 16:40:39 PDT [FINE] Sending content: 
+authkey=&collectstats=0&debug=1&autoupdate=1&sendstatsinterval=5&https=1
