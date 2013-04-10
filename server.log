@@ -477,3 +477,129 @@ Caused by: com.mchange.v2.resourcepool.CannotAcquireResourceException: A Resourc
 2013-04-09 20:51:09 [INFO] Saving chunks for level 'world'/Nether
 2013-04-09 20:51:09 [INFO] Saving chunks for level 'world'/The End
 2013-04-09 20:51:10 [INFO] Stopping server
+2013-04-09 21:11:45 [INFO] Starting minecraft server version 1.4.7
+2013-04-09 21:11:46 [SEVERE] BukkitForge plugins may misbehave when using the gui! Run the server with 'nogui'!
+2013-04-09 21:11:47 [INFO] Loading properties
+2013-04-09 21:11:47 [INFO] Default game type: SURVIVAL
+2013-04-09 21:11:47 [INFO] Generating keypair
+2013-04-09 21:11:47 [INFO] Starting Minecraft server on *:25565
+2013-04-09 21:11:48 [INFO] Preparing level "world"
+2013-04-09 21:11:48 [INFO] Preparing start region for level 0
+2013-04-09 21:11:48 [INFO] Done (0.852s)! For help, type "help" or "?"
+2013-04-09 21:11:51 [INFO] Stopping the server
+2013-04-09 21:11:51 [SEVERE] Encountered an unexpected exception NullPointerException
+java.lang.NullPointerException
+	at keepcalm.mods.bukkit.BukkitContainer.serverStopping(BukkitContainer.java:350)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:485)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:69)
+	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:317)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:300)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:268)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:69)
+	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:317)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:300)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:268)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:83)
+	at cpw.mods.fml.common.Loader.serverStopping(Loader.java:712)
+	at cpw.mods.fml.common.FMLCommonHandler.handleServerStopping(FMLCommonHandler.java:319)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:503)
+	at fy.run(SourceFile:849)
+2013-04-09 21:11:51 [SEVERE] This crash report has been saved to: C:\Users\Nate\Documents\GitHub\MCServer\.\crash-reports\crash-2013-04-09_21.11.51-server.txt
+2013-04-09 21:11:51 [INFO] Stopping server
+2013-04-09 21:11:51 [INFO] Saving players
+2013-04-09 21:11:51 [INFO] Saving worlds
+2013-04-09 21:11:51 [INFO] Saving chunks for level 'world'/Overworld
+2013-04-09 21:11:51 [INFO] Saving chunks for level 'world'/Nether
+2013-04-09 21:11:51 [INFO] Saving chunks for level 'world'/The End
+2013-04-09 21:11:51 [FINE] Aborting ItemSpawnBL read, itemDB not yet loaded.
+2013-04-09 21:11:51 [INFO] Essentials: Using GroupManager based permissions.
+2013-04-09 21:11:59 [INFO] Stopping server
+2013-04-09 21:11:59 [INFO] Saving players
+2013-04-09 21:11:59 [INFO] Saving worlds
+2013-04-09 21:12:10 [INFO] Starting minecraft server version 1.4.7
+2013-04-09 21:12:11 [SEVERE] BukkitForge plugins may misbehave when using the gui! Run the server with 'nogui'!
+2013-04-09 21:12:11 [INFO] Loading properties
+2013-04-09 21:12:11 [INFO] Default game type: SURVIVAL
+2013-04-09 21:12:11 [INFO] Generating keypair
+2013-04-09 21:12:12 [INFO] Starting Minecraft server on *:25565
+2013-04-09 21:12:12 [INFO] Preparing level "world"
+2013-04-09 21:12:12 [INFO] Preparing start region for level 0
+2013-04-09 21:12:13 [INFO] Done (0.839s)! For help, type "help" or "?"
+2013-04-09 21:12:15 [FINE] Aborting ItemSpawnBL read, itemDB not yet loaded.
+2013-04-09 21:12:15 [INFO] Essentials: Using GroupManager based permissions.
+2013-04-09 21:12:54 [INFO] Stopping the server
+2013-04-09 21:12:54 [INFO] Stopping server
+2013-04-09 21:12:54 [INFO] Saving players
+2013-04-09 21:12:54 [INFO] Saving worlds
+2013-04-09 21:12:54 [INFO] Saving chunks for level 'world'/Overworld
+2013-04-09 21:12:54 [INFO] Saving chunks for level 'world'/Nether
+2013-04-09 21:12:54 [INFO] Saving chunks for level 'world'/The End
+2013-04-09 21:12:54 [INFO] Stopping server
+2013-04-09 21:12:54 [INFO] Saving players
+2013-04-09 21:12:54 [INFO] Saving worlds
+2013-04-09 21:13:36 [INFO] Starting minecraft server version 1.4.7
+2013-04-09 21:13:38 [SEVERE] BukkitForge plugins may misbehave when using the gui! Run the server with 'nogui'!
+2013-04-09 21:13:38 [INFO] Loading properties
+2013-04-09 21:13:38 [INFO] Default game type: SURVIVAL
+2013-04-09 21:13:38 [INFO] Generating keypair
+2013-04-09 21:13:39 [INFO] Starting Minecraft server on *:25565
+2013-04-09 21:13:40 [INFO] Preparing level "world"
+2013-04-09 21:13:40 [INFO] Preparing start region for level 0
+2013-04-09 21:13:41 [INFO] Done (1.396s)! For help, type "help" or "?"
+2013-04-09 21:13:42 [INFO] [PermissionsEx] sql backend registered!
+2013-04-09 21:13:42 [INFO] [PermissionsEx] file backend registered!
+2013-04-09 21:13:42 [INFO] [PermissionsEx] PermissionEx plugin initialized.
+2013-04-09 21:13:43 [INFO] [PermissionsEx] Initializing file backend
+2013-04-09 21:13:44 [INFO] [PermissionsEx] Superperms support enabled.
+2013-04-09 21:13:44 [INFO] [PermissionsEx] v1.19.5 enabled
+2013-04-09 21:13:44 [FINE] Aborting ItemSpawnBL read, itemDB not yet loaded.
+2013-04-09 21:13:45 [INFO] Essentials: Using PermissionsEx based permissions.
+2013-04-09 21:14:56 [INFO] User MRspiderpig778 connecting with mods []
+2013-04-09 21:14:56 [INFO] MRspiderpig778[/50.53.56.28:50126] logged in with entity id 267 at (-136.5, 66.62000000476837, 247.5)
+2013-04-09 21:14:57 [INFO] Creating empty config: C:\Users\Nate\Documents\GitHub\MCServer\.\plugins\Essentials\userdata\mrspiderpig778.yml
+2013-04-09 21:14:57 [INFO] Disconnecting MRspiderpig778 [/50.53.56.28:50126]: Internal server error
+2013-04-09 21:14:57 [WARNING] Failed to handle packet for MRspiderpig778 [/50.53.56.28:50126]: java.lang.NullPointerException
+java.lang.NullPointerException
+	at keepcalm.mods.bukkit.forgeHandler.ConnectionHandler.playerLoggedIn(ConnectionHandler.java:121)
+	at cpw.mods.fml.common.network.NetworkRegistry.playerLoggedIn(NetworkRegistry.java:161)
+	at cpw.mods.fml.common.network.FMLNetworkHandler.handlePlayerLogin(FMLNetworkHandler.java:281)
+	at gm.a(ServerConfigurationManager.java:143)
+	at it.completeConnection(NetLoginHandler.java:198)
+	at cpw.mods.fml.common.network.FMLNetworkHandler.handleClientConnection(FMLNetworkHandler.java:153)
+	at cpw.mods.fml.common.network.FMLNetworkHandler.onConnectionReceivedFromClient(FMLNetworkHandler.java:107)
+	at it.d(NetLoginHandler.java:182)
+	at it.c(NetLoginHandler.java:75)
+	at hu.a(ServerListenThread.java:56)
+	at ht.b(SourceFile:29)
+	at net.minecraft.server.MinecraftServer.r(MinecraftServer.java:703)
+	at ho.r(DedicatedServer.java:270)
+	at net.minecraft.server.MinecraftServer.q(MinecraftServer.java:599)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:497)
+	at fy.run(SourceFile:849)
+2013-04-09 21:14:57 [INFO] MRspiderpig778 lost connection: disconnect.genericReason
+2013-04-09 21:16:06 [INFO] Permissions file successfully reloaded
+2013-04-09 21:16:06 [INFO] [PermissionsEx] v1.19.5 disabled successfully.
+2013-04-09 21:16:07 [INFO] Stopping the server
+2013-04-09 21:16:07 [INFO] Stopping server
+2013-04-09 21:16:07 [INFO] Saving players
+2013-04-09 21:16:07 [INFO] Saving worlds
+2013-04-09 21:16:07 [INFO] Saving chunks for level 'world'/Overworld
+2013-04-09 21:16:07 [INFO] Saving chunks for level 'world'/Nether
+2013-04-09 21:16:07 [INFO] Saving chunks for level 'world'/The End
+2013-04-09 21:16:07 [INFO] Stopping server
+2013-04-09 21:16:07 [INFO] Saving players
+2013-04-09 21:16:07 [INFO] Saving worlds

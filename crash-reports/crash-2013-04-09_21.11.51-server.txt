@@ -1,0 +1,65 @@
+---- Minecraft Crash Report ----
+// This doesn't make any sense!
+
+Time: 4/9/13 9:11 PM
+Description: Exception in server tick loop
+
+java.lang.NullPointerException
+	at keepcalm.mods.bukkit.BukkitContainer.serverStopping(BukkitContainer.java:350)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:485)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:69)
+	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:317)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:300)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:268)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:69)
+	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:317)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:300)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:268)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:83)
+	at cpw.mods.fml.common.Loader.serverStopping(Loader.java:712)
+	at cpw.mods.fml.common.FMLCommonHandler.handleServerStopping(FMLCommonHandler.java:319)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:503)
+	at fy.run(SourceFile:849)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.4.7
+	Operating System: Windows 7 (amd64) version 6.1
+	Java Version: 1.7.0_10, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 2938316000 bytes (2802 MB) / 3087007744 bytes (2944 MB) up to 3087007744 bytes (2944 MB)
+	JVM Flags: 2 total; -Xms3072M -Xmx3072M
+	AABB Pool Size: 3937 (220472 bytes; 0 MB) allocated, 3891 (217896 bytes; 0 MB) used
+	Suspicious classes: FML and Forge are installed
+	IntCache: cache: 18, tcache: 0, allocated: 3, tallocated: 63
+	FML: MCP v7.26 FML v4.7.4.520 Minecraft Forge 6.6.0.497 5 mods loaded, 5 mods active
+	mcp [Minecraft Coder Pack] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	FML [Forge Mod Loader] (coremods) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Forge [Minecraft Forge] (coremods) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	BukkitForge [BukkitForge] (BukkitForge-1.4.7-257.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Errored
+	BlockBreak [Block Break Event] (BukkitForge-1.4.7-257.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	BukkitForge Details: BukkitForge null-null (with bukkit API version 1.4.7-R0.1)
+Plugins Loaded:GroupManager v1.9 (2.9.1) (Phoenix): Enabled, WorldEdit v5.3: Enabled, Permissions v3.1.6: Disabled, Essentials v2.9.1: Disabled, EssentialsChat v2.9.1: Disabled, EssentialsProtect v2.9.1: Disabled and EssentialsSpawn v2.9.1: Disabled
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 622 (34832 bytes; 0 MB) allocated, 580 (32480 bytes; 0 MB) used
+	Player Count: 0 / 4; []
+	Is Modded: Definitely; Server brand changed to 'fml'
+	Type: Dedicated Server (map_server.txt)
