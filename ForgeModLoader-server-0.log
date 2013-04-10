@@ -1,265 +1,352 @@
-2013-04-09 16:40:55 [INFO] [ForgeModLoader] Forge Mod Loader version 4.7.4.520 for Minecraft 1.4.7 loading
-2013-04-09 16:40:55 [INFO] [STDOUT] Bukkitforge call to getASMTransformer ...
-2013-04-09 16:40:55 [INFO] [STDOUT] Bukkitforge call to getASMTransformer ...
-2013-04-09 16:40:55 [INFO] [STDOUT] Adding Accesstransformer map: bukkit_at.cfg
-2013-04-09 16:40:56 [INFO] [ForgeModLoader] Found valid fingerprint for Minecraft Forge. Certificate fingerprint de4cf8a3f3bc15635810044c39240bf96804ea7d
-2013-04-09 16:40:56 [INFO] [STDOUT] Transforming gm using keepcalm.mods.bukkit.asm.replacements.ServerConfigurationManager_BukkitForge !test!
-2013-04-09 16:40:56 [INFO] [STDOUT] Class Transformation running on ItemInWorldManager...
-2013-04-09 16:40:56 [INFO] [STDOUT] Found target method d(III)Z! Searching for landmarks...
-2013-04-09 16:40:56 [INFO] [STDOUT] Found Block object ASTORE Node at 10
-2013-04-09 16:40:56 [INFO] [STDOUT] Block object is in local object 4
-2013-04-09 16:40:56 [INFO] [STDOUT] Found metadata local variable ISTORE Node at 19
-2013-04-09 16:40:56 [INFO] [STDOUT] Metadata is in local variable 5
-2013-04-09 16:40:56 [INFO] [STDOUT] Found IFNULL Node at 23
-2013-04-09 16:40:56 [INFO] [STDOUT] Found ALOAD Node at offset 3 from IFNULL Node
-2013-04-09 16:40:56 [INFO] [STDOUT] Patching method ir/d(III)Z...
-2013-04-09 16:40:56 [INFO] [STDOUT] Method ir/d(III)Z at index 25
-2013-04-09 16:40:56 [INFO] [STDOUT] Patching Complete!
-2013-04-09 16:40:56 [INFO] [STDOUT] Found target for ItemInWorldManager transformation: a()V! Searching for landmarks...
-2013-04-09 16:40:56 [INFO] [STDOUT] Found landmark: RETURN, searching for previous landmark...
-2013-04-09 16:40:56 [INFO] [STDOUT] Found IF_ICMPEQ at index 227 to R, which is at 251. Inserting function call after this...
-2013-04-09 16:40:56 [INFO] [STDOUT] Will insert code at: 228
-2013-04-09 16:40:56 [INFO] [STDOUT] Using desc: (Lir;)V
-2013-04-09 16:40:56 [INFO] [STDOUT] Finished compiling instruction nodes, inserting new instructions... at 228
-2013-04-09 16:40:56 [INFO] [STDOUT] Finished patching ItemInWorldManager! The game will now continue!
-2013-04-09 16:40:56 [INFO] [STDOUT] Found global block break call: a(Lyc;IIIII)V
-2013-04-09 16:40:56 [INFO] [STDOUT] Inserted instructions!
-2013-04-09 16:40:57 [INFO] [STDOUT] Found target method: n(Lyc;III)V! Looking for landmark...
-2013-04-09 16:40:57 [INFO] [STDOUT] Found insertion point - GETSTATIC followed by IF_ACMPEQ!
-2013-04-09 16:40:57 [INFO] [STDOUT] Does bb equal null?
-2013-04-09 16:40:57 [INFO] [STDOUT] Found landmark! Inserting code...
-2013-04-09 16:40:57 [INFO] [STDOUT] Instructions have been compiled, adding to bytecode...
-2013-04-09 16:40:57 [INFO] [STDOUT] Finished patching BlockDispenser!
-2013-04-09 16:40:57 [INFO] [STDOUT] Transforming up...
-2013-04-09 16:40:57 [INFO] [STDOUT] Inspecting 70 methods...
-2013-04-09 16:40:57 [INFO] [STDOUT] Found matching constructor method in Item: <init>(I)V!
-2013-04-09 16:40:57 [INFO] [STDOUT] Finished patching item-register method into BukkitForge!
-2013-04-09 16:40:57 [INFO] [STDOUT] Manifest-Version=> 1.0
-2013-04-09 16:40:57 [INFO] [STDOUT] Ant-Version=> Apache Ant 1.7.1
-2013-04-09 16:40:57 [INFO] [STDOUT] Created-By=> 20.4-b02-402 (Apple Inc.)
-2013-04-09 16:40:57 [INFO] [STDOUT] THIS SERVER IS RUNNING BUKKITFORGE null-null. JUST IN CASE SOMEONE ASKS!
-2013-04-09 16:40:58 [INFO] [STDOUT] 210 recipes
-2013-04-09 16:40:58 [INFO] [STDOUT] 27 achievements
-2013-04-09 16:40:58 [INFO] [STDOUT] Transforming x using keepcalm.mods.bukkit.asm.replacements.CommandHandler_BukkitForge !test!
-2013-04-09 16:40:59 [INFO] [STDOUT] Transforming net.minecraftforge.common.DimensionManager using keepcalm.mods.bukkit.asm.replacements.DimensionManager_BukkitForge !test!
-2013-04-09 16:40:59 [INFO] [Minecraft] Starting minecraft server version 1.4.7
-2013-04-09 16:40:59 [INFO] [ForgeModLoader] Attempting early MinecraftForge initialization
-2013-04-09 16:40:59 [INFO] [STDOUT] MinecraftForge v6.6.0.497 Initialized
-2013-04-09 16:40:59 [INFO] [ForgeModLoader] MinecraftForge v6.6.0.497 Initialized
-2013-04-09 16:40:59 [INFO] [STDOUT] Replaced 84 ore recipies
-2013-04-09 16:40:59 [INFO] [ForgeModLoader] Completed early MinecraftForge initialization
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Building injected Mod Containers [cpw.mods.fml.common.FMLDummyContainer, net.minecraftforge.common.ForgeDummyContainer]
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Attempting to load mods contained in the minecraft jar file and associated classes
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/server.jar, examining for mod candidates
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/coremods/BukkitForge-1.4.7-257.jar, examining for mod candidates
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/argo-2.25.jar
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/guava-12.0.1.jar
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/asm-all-4.0.jar
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/bcprov-jdk15on-147.jar
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/commons-lang-2.3.jar
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/ebean-2.8.1.jar
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/gson-2.1-cb.jar
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/sqlite-jdbc-3.7.2.jar
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/json-simple-1.1.1.jar
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/snakeyaml-1.9.jar
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/jansi-1.9.jar
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/guava10-renamed.jar
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/SpecialSource-1.3-SNAPSHOT.jar
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/mysql-connector-java-5.1.14.jar
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Minecraft jar mods loaded successfully
-2013-04-09 16:41:00 [INFO] [ForgeModLoader] Searching /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/mods for mods
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Ignoring unknown file .DS_Store in mods directory
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Examining file server.jar for potential mods
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] The mod container server.jar appears to be missing an mcmod.info file
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Examining file BukkitForge-1.4.7-257.jar for potential mods
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] The mod container BukkitForge-1.4.7-257.jar appears to be missing an mcmod.info file
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Identified an FMLMod type mod keepcalm.mods.bukkit.BukkitContainer
-2013-04-09 16:41:00 [FINEST] [ForgeModLoader] Parsed dependency info : [] [] []
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Identified an FMLMod type mod keepcalm.mods.events.BlockBreakContainer
-2013-04-09 16:41:00 [FINEST] [ForgeModLoader] Parsed dependency info : [] [] []
-2013-04-09 16:41:00 [INFO] [ForgeModLoader] Forge Mod Loader has identified 5 mods to load
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Received a system property request ''
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] System property request managing the state of 0 mods
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] After merging, found state information for 0 mods
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Activating mod mcp
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Activating mod FML
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Activating mod Forge
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Enabling mod BukkitForge
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Activating mod BukkitForge
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Enabling mod BlockBreak
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Activating mod BlockBreak
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Verifying mod requirements are satisfied
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] All mod requirements are satisfied
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Sorting mods into an ordered list
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Mod sorting completed successfully
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] Mod sorting data:
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] 	BukkitForge(BukkitForge:Unknown): BukkitForge-1.4.7-257.jar ()
-2013-04-09 16:41:00 [FINE] [ForgeModLoader] 	BlockBreak(Block Break Event:1.4.6-0): BukkitForge-1.4.7-257.jar ()
-2013-04-09 16:41:00 [FINER] [ForgeModLoader] Sending event FMLConstructionEvent to mod mcp
-2013-04-09 16:41:00 [FINER] [ForgeModLoader] Sent event FMLConstructionEvent to mod mcp
-2013-04-09 16:41:00 [FINER] [ForgeModLoader] Sending event FMLConstructionEvent to mod FML
-2013-04-09 16:41:00 [FINER] [ForgeModLoader] Sent event FMLConstructionEvent to mod FML
-2013-04-09 16:41:00 [FINER] [ForgeModLoader] Sending event FMLConstructionEvent to mod Forge
-2013-04-09 16:41:00 [FINER] [ForgeModLoader] Sent event FMLConstructionEvent to mod Forge
-2013-04-09 16:41:00 [FINER] [ForgeModLoader] Sending event FMLConstructionEvent to mod BukkitForge
-2013-04-09 16:41:01 [FINEST] [ForgeModLoader] Testing mod BukkitForge to verify it accepts its own version in a remote connection
-2013-04-09 16:41:01 [FINEST] [ForgeModLoader] The mod BukkitForge accepts its own version (Unknown)
-2013-04-09 16:41:01 [WARNING] [ForgeModLoader] The mod id BukkitForge attempted to register a packet handler without specifying channels for it
-2013-04-09 16:41:01 [INFO] [STDOUT] Found target method in NetServerHandler: a(Lfc;)V
-2013-04-09 16:41:01 [INFO] [STDOUT] Found target method: a(Leb;)V! Inserting code...
-2013-04-09 16:41:01 [INFO] [STDOUT] Transforming iv using keepcalm.mods.bukkit.asm.replacements.NetServerHandler_BukkitForge !test!
-2013-04-09 16:41:01 [SEVERE] [Minecraft] BukkitForge plugins may misbehave when using the gui! Run the server with 'nogui'!
-2013-04-09 16:41:01 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into BukkitForge
-2013-04-09 16:41:01 [FINER] [ForgeModLoader] Sent event FMLConstructionEvent to mod BukkitForge
-2013-04-09 16:41:01 [FINER] [ForgeModLoader] Sending event FMLConstructionEvent to mod BlockBreak
-2013-04-09 16:41:01 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into BlockBreak
-2013-04-09 16:41:01 [FINER] [ForgeModLoader] Sent event FMLConstructionEvent to mod BlockBreak
-2013-04-09 16:41:01 [FINE] [ForgeModLoader] Mod signature data:
-2013-04-09 16:41:01 [FINE] [ForgeModLoader] 	mcp(Minecraft Coder Pack:7.26): minecraft.jar (NO VALID CERTIFICATE FOUND)
-2013-04-09 16:41:01 [FINE] [ForgeModLoader] 	FML(Forge Mod Loader:4.7.4.520): coremods (de4cf8a3f3bc15635810044c39240bf96804ea7d)
-2013-04-09 16:41:01 [FINE] [ForgeModLoader] 	Forge(Minecraft Forge:6.6.0.497): coremods (NO VALID CERTIFICATE FOUND)
-2013-04-09 16:41:01 [FINE] [ForgeModLoader] 	BukkitForge(BukkitForge:Unknown): BukkitForge-1.4.7-257.jar (NO VALID CERTIFICATE FOUND)
-2013-04-09 16:41:01 [FINE] [ForgeModLoader] 	BlockBreak(Block Break Event:1.4.6-0): BukkitForge-1.4.7-257.jar (NO VALID CERTIFICATE FOUND)
-2013-04-09 16:41:01 [FINER] [ForgeModLoader] Sending event FMLPreInitializationEvent to mod mcp
-2013-04-09 16:41:01 [FINER] [ForgeModLoader] Sent event FMLPreInitializationEvent to mod mcp
-2013-04-09 16:41:01 [FINER] [ForgeModLoader] Sending event FMLPreInitializationEvent to mod FML
-2013-04-09 16:41:01 [FINER] [ForgeModLoader] Sent event FMLPreInitializationEvent to mod FML
-2013-04-09 16:41:01 [FINER] [ForgeModLoader] Sending event FMLPreInitializationEvent to mod Forge
-2013-04-09 16:41:01 [INFO] [ForgeModLoader] Configured a dormant chunk cache size of 0
-2013-04-09 16:41:01 [FINER] [ForgeModLoader] Sent event FMLPreInitializationEvent to mod Forge
-2013-04-09 16:41:01 [FINER] [ForgeModLoader] Sending event FMLPreInitializationEvent to mod BukkitForge
-2013-04-09 16:41:01 [INFO] [BukkitForge] Initializing configuration...
-2013-04-09 16:41:01 [INFO] [BukkitForge] Set UUID to 1365548638312-1182765419-1.4.7
-2013-04-09 16:41:01 [FINER] [ForgeModLoader] Sent event FMLPreInitializationEvent to mod BukkitForge
-2013-04-09 16:41:01 [FINER] [ForgeModLoader] Sending event FMLPreInitializationEvent to mod BlockBreak
-2013-04-09 16:41:01 [FINER] [ForgeModLoader] Sent event FMLPreInitializationEvent to mod BlockBreak
-2013-04-09 16:41:01 [INFO] [Minecraft] Loading properties
-2013-04-09 16:41:01 [INFO] [Minecraft] Default game type: SURVIVAL
-2013-04-09 16:41:01 [INFO] [Minecraft] Generating keypair
-2013-04-09 16:41:02 [INFO] [Minecraft] Starting Minecraft server on *:25565
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sending event FMLInitializationEvent to mod mcp
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sent event FMLInitializationEvent to mod mcp
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sending event FMLInitializationEvent to mod FML
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sent event FMLInitializationEvent to mod FML
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sending event FMLInitializationEvent to mod Forge
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sent event FMLInitializationEvent to mod Forge
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sending event FMLInitializationEvent to mod BukkitForge
-2013-04-09 16:41:02 [INFO] [BukkitForge] Complete! Registering handlers...
-2013-04-09 16:41:02 [INFO] [STDOUT] Transforming EntitySheep...
-2013-04-09 16:41:02 [INFO] [STDOUT] Class name matched creeper...
-2013-04-09 16:41:02 [INFO] [STDOUT] Found insertion point! inserting code!
-2013-04-09 16:41:02 [INFO] [BukkitForge] Done!
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sent event FMLInitializationEvent to mod BukkitForge
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sending event FMLInitializationEvent to mod BlockBreak
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sent event FMLInitializationEvent to mod BlockBreak
-2013-04-09 16:41:02 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod mcp
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sending event IMCEvent to mod mcp
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sent event IMCEvent to mod mcp
-2013-04-09 16:41:02 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod FML
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sending event IMCEvent to mod FML
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sent event IMCEvent to mod FML
-2013-04-09 16:41:02 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod Forge
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sending event IMCEvent to mod Forge
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sent event IMCEvent to mod Forge
-2013-04-09 16:41:02 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod BukkitForge
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sending event IMCEvent to mod BukkitForge
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sent event IMCEvent to mod BukkitForge
-2013-04-09 16:41:02 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod BlockBreak
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sending event IMCEvent to mod BlockBreak
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sent event IMCEvent to mod BlockBreak
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sending event FMLPostInitializationEvent to mod mcp
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sent event FMLPostInitializationEvent to mod mcp
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sending event FMLPostInitializationEvent to mod FML
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sent event FMLPostInitializationEvent to mod FML
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sending event FMLPostInitializationEvent to mod Forge
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sent event FMLPostInitializationEvent to mod Forge
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sending event FMLPostInitializationEvent to mod BukkitForge
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sent event FMLPostInitializationEvent to mod BukkitForge
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sending event FMLPostInitializationEvent to mod BlockBreak
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sent event FMLPostInitializationEvent to mod BlockBreak
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sending event FMLLoadCompleteEvent to mod mcp
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sent event FMLLoadCompleteEvent to mod mcp
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sending event FMLLoadCompleteEvent to mod FML
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sent event FMLLoadCompleteEvent to mod FML
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sending event FMLLoadCompleteEvent to mod Forge
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sent event FMLLoadCompleteEvent to mod Forge
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sending event FMLLoadCompleteEvent to mod BukkitForge
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sent event FMLLoadCompleteEvent to mod BukkitForge
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sending event FMLLoadCompleteEvent to mod BlockBreak
-2013-04-09 16:41:02 [FINER] [ForgeModLoader] Sent event FMLLoadCompleteEvent to mod BlockBreak
-2013-04-09 16:41:02 [INFO] [ForgeModLoader] Forge Mod Loader has successfully loaded 5 mods
-2013-04-09 16:41:02 [INFO] [Minecraft] Preparing level "world"
-2013-04-09 16:41:02 [SEVERE] [ForgeModLoader] This world was saved with mod EnjinMinecraftPlugin which appears to be missing, things may not work well
-2013-04-09 16:41:02 [FINE] [ForgeModLoader] The difference set is equal
-2013-04-09 16:41:03 [INFO] [STDOUT] Transforming ii using keepcalm.mods.bukkit.asm.replacements.EntityTracker_BukkitForge !test!
-2013-04-09 16:41:03 [INFO] [ForgeModLoader] Loading dimension 0 (world) (ho@24439dbb)
-2013-04-09 16:41:03 [INFO] [ForgeModLoader] Loading dimension 1 (world) (ho@24439dbb)
-2013-04-09 16:41:03 [INFO] [ForgeModLoader] Loading dimension -1 (world) (ho@24439dbb)
-2013-04-09 16:41:03 [INFO] [Minecraft] Preparing start region for level 0
-2013-04-09 16:41:03 [INFO] [Minecraft] Done (1.318s)! For help, type "help" or "?"
-2013-04-09 16:41:03 [FINER] [ForgeModLoader] Sending event FMLServerStartingEvent to mod mcp
-2013-04-09 16:41:03 [FINER] [ForgeModLoader] Sent event FMLServerStartingEvent to mod mcp
-2013-04-09 16:41:03 [FINER] [ForgeModLoader] Sending event FMLServerStartingEvent to mod FML
-2013-04-09 16:41:03 [FINER] [ForgeModLoader] Sent event FMLServerStartingEvent to mod FML
-2013-04-09 16:41:03 [FINER] [ForgeModLoader] Sending event FMLServerStartingEvent to mod Forge
-2013-04-09 16:41:03 [FINER] [ForgeModLoader] Sent event FMLServerStartingEvent to mod Forge
-2013-04-09 16:41:03 [FINER] [ForgeModLoader] Sending event FMLServerStartingEvent to mod BukkitForge
-2013-04-09 16:41:04 [FINER] [ForgeModLoader] Sent event FMLServerStartingEvent to mod BukkitForge
-2013-04-09 16:41:04 [FINER] [ForgeModLoader] Sending event FMLServerStartingEvent to mod BlockBreak
-2013-04-09 16:41:04 [FINER] [ForgeModLoader] Sent event FMLServerStartingEvent to mod BlockBreak
-2013-04-09 16:41:04 [FINER] [ForgeModLoader] Sending event FMLServerStartedEvent to mod mcp
-2013-04-09 16:41:04 [FINER] [ForgeModLoader] Sent event FMLServerStartedEvent to mod mcp
-2013-04-09 16:41:04 [FINER] [ForgeModLoader] Sending event FMLServerStartedEvent to mod FML
-2013-04-09 16:41:04 [FINER] [ForgeModLoader] Sent event FMLServerStartedEvent to mod FML
-2013-04-09 16:41:04 [FINER] [ForgeModLoader] Sending event FMLServerStartedEvent to mod Forge
-2013-04-09 16:41:04 [FINER] [ForgeModLoader] Sent event FMLServerStartedEvent to mod Forge
-2013-04-09 16:41:04 [FINER] [ForgeModLoader] Sending event FMLServerStartedEvent to mod BukkitForge
-2013-04-09 16:41:04 [INFO] [STDOUT] iq['[Mod]'/266, l='world', x=-141.50, y=66.62, z=255.50]
-2013-04-09 16:41:04 [FINER] [ForgeModLoader] Sent event FMLServerStartedEvent to mod BukkitForge
-2013-04-09 16:41:04 [FINER] [ForgeModLoader] Sending event FMLServerStartedEvent to mod BlockBreak
-2013-04-09 16:41:04 [FINER] [ForgeModLoader] Sent event FMLServerStartedEvent to mod BlockBreak
-2013-04-09 16:41:04 [INFO] [STDOUT] IS THE INSTANCE NULL? NO
-2013-04-09 16:41:05 [INFO] [BukkitForge] Starting BukkitForge null-null(CB-Version: git-Bukkit-1.4.5-R1.0-b3000jnks (Really: BukkitForge for MC 1.4.7)).
-2013-04-09 16:41:05 [INFO] [BukkitForge] This server is running BukkitForge version git-Bukkit-1.4.5-R1.0-b3000jnks (Really: BukkitForge for MC 1.4.7) (Implementing API version 1.4.7-R0.1)
-2013-04-09 16:41:05 [INFO] [BukkitForge] Plugins are being loaded...
-2013-04-09 16:41:05 [INFO] [BukkitForge] Loading PostWorld plugins...
-2013-04-09 16:41:05 [INFO] [BukkitForge] Going to load perms file: permissions.yml
-2013-04-09 16:41:05 [INFO] [BukkitForge] Server permissions file permissions.yml is empty, ignoring it
-2013-04-09 16:41:05 [INFO] [BukkitForge] Loaded plugins: 
-2013-04-09 16:41:08 [FINER] [ForgeModLoader] Sending event FMLServerStoppingEvent to mod mcp
-2013-04-09 16:41:08 [FINER] [ForgeModLoader] Sent event FMLServerStoppingEvent to mod mcp
-2013-04-09 16:41:08 [FINER] [ForgeModLoader] Sending event FMLServerStoppingEvent to mod FML
-2013-04-09 16:41:08 [FINER] [ForgeModLoader] Sent event FMLServerStoppingEvent to mod FML
-2013-04-09 16:41:08 [FINER] [ForgeModLoader] Sending event FMLServerStoppingEvent to mod Forge
-2013-04-09 16:41:08 [FINER] [ForgeModLoader] Sent event FMLServerStoppingEvent to mod Forge
-2013-04-09 16:41:08 [FINER] [ForgeModLoader] Sending event FMLServerStoppingEvent to mod BukkitForge
-2013-04-09 16:41:08 [INFO] [BukkitForge] Stopping BukkitForge null-null
-2013-04-09 16:41:08 [FINER] [ForgeModLoader] Sent event FMLServerStoppingEvent to mod BukkitForge
-2013-04-09 16:41:08 [FINER] [ForgeModLoader] Sending event FMLServerStoppingEvent to mod BlockBreak
-2013-04-09 16:41:08 [FINER] [ForgeModLoader] Sent event FMLServerStoppingEvent to mod BlockBreak
-2013-04-09 16:41:08 [INFO] [Minecraft] Stopping server
-2013-04-09 16:41:08 [INFO] [Minecraft] Saving players
-2013-04-09 16:41:08 [INFO] [STDERR] java.net.SocketException: Socket closed
-2013-04-09 16:41:08 [INFO] [Minecraft] Saving worlds
-2013-04-09 16:41:08 [INFO] [STDERR] 	at java.net.PlainSocketImpl.socketAccept(Native Method)
-2013-04-09 16:41:08 [INFO] [STDERR] 	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:398)
-2013-04-09 16:41:08 [INFO] [STDERR] 	at java.net.ServerSocket.implAccept(ServerSocket.java:522)
-2013-04-09 16:41:08 [INFO] [Minecraft] Saving chunks for level 'world'/Overworld
-2013-04-09 16:41:08 [INFO] [STDERR] 	at java.net.ServerSocket.accept(ServerSocket.java:490)
-2013-04-09 16:41:08 [INFO] [STDERR] 	at hu.run(ServerListenThread.java:81)
-2013-04-09 16:41:08 [INFO] [STDOUT] Closing listening thread
-2013-04-09 16:41:08 [INFO] [Minecraft] Saving chunks for level 'world'/Nether
-2013-04-09 16:41:08 [INFO] [Minecraft] Saving chunks for level 'world'/The End
-2013-04-09 16:41:08 [INFO] [ForgeModLoader] Unloading dimension 0
-2013-04-09 16:41:08 [INFO] [ForgeModLoader] Unloading dimension -1
-2013-04-09 16:41:08 [INFO] [ForgeModLoader] Unloading dimension 1
-2013-04-09 16:41:08 [FINER] [ForgeModLoader] Sending event FMLServerStoppedEvent to mod mcp
-2013-04-09 16:41:08 [FINER] [ForgeModLoader] Sent event FMLServerStoppedEvent to mod mcp
-2013-04-09 16:41:08 [FINER] [ForgeModLoader] Sending event FMLServerStoppedEvent to mod FML
-2013-04-09 16:41:08 [FINER] [ForgeModLoader] Sent event FMLServerStoppedEvent to mod FML
-2013-04-09 16:41:08 [FINER] [ForgeModLoader] Sending event FMLServerStoppedEvent to mod Forge
-2013-04-09 16:41:08 [FINER] [ForgeModLoader] Sent event FMLServerStoppedEvent to mod Forge
-2013-04-09 16:41:08 [FINER] [ForgeModLoader] Sending event FMLServerStoppedEvent to mod BukkitForge
-2013-04-09 16:41:08 [INFO] [Minecraft] Stopping server
-2013-04-09 16:41:08 [INFO] [Minecraft] Saving players
-2013-04-09 16:41:08 [INFO] [Minecraft] Saving worlds
+2013-04-09 20:50:08 [INFO] [ForgeModLoader] Forge Mod Loader version 4.7.4.520 for Minecraft 1.4.7 loading
+2013-04-09 20:50:08 [INFO] [STDOUT] Bukkitforge call to getASMTransformer ...
+2013-04-09 20:50:08 [INFO] [STDOUT] Bukkitforge call to getASMTransformer ...
+2013-04-09 20:50:08 [INFO] [STDOUT] Adding Accesstransformer map: bukkit_at.cfg
+2013-04-09 20:50:08 [INFO] [ForgeModLoader] Found valid fingerprint for Minecraft Forge. Certificate fingerprint de4cf8a3f3bc15635810044c39240bf96804ea7d
+2013-04-09 20:50:09 [INFO] [STDOUT] Transforming gm using keepcalm.mods.bukkit.asm.replacements.ServerConfigurationManager_BukkitForge !test!
+2013-04-09 20:50:09 [INFO] [STDOUT] Class Transformation running on ItemInWorldManager...
+2013-04-09 20:50:09 [INFO] [STDOUT] Found target method d(III)Z! Searching for landmarks...
+2013-04-09 20:50:09 [INFO] [STDOUT] Found Block object ASTORE Node at 10
+2013-04-09 20:50:09 [INFO] [STDOUT] Block object is in local object 4
+2013-04-09 20:50:09 [INFO] [STDOUT] Found metadata local variable ISTORE Node at 19
+2013-04-09 20:50:09 [INFO] [STDOUT] Metadata is in local variable 5
+2013-04-09 20:50:09 [INFO] [STDOUT] Found IFNULL Node at 23
+2013-04-09 20:50:09 [INFO] [STDOUT] Found ALOAD Node at offset 3 from IFNULL Node
+2013-04-09 20:50:09 [INFO] [STDOUT] Patching method ir/d(III)Z...
+2013-04-09 20:50:09 [INFO] [STDOUT] Method ir/d(III)Z at index 25
+2013-04-09 20:50:09 [INFO] [STDOUT] Patching Complete!
+2013-04-09 20:50:09 [INFO] [STDOUT] Found target for ItemInWorldManager transformation: a()V! Searching for landmarks...
+2013-04-09 20:50:09 [INFO] [STDOUT] Found landmark: RETURN, searching for previous landmark...
+2013-04-09 20:50:09 [INFO] [STDOUT] Found IF_ICMPEQ at index 227 to R, which is at 251. Inserting function call after this...
+2013-04-09 20:50:09 [INFO] [STDOUT] Will insert code at: 228
+2013-04-09 20:50:09 [INFO] [STDOUT] Using desc: (Lir;)V
+2013-04-09 20:50:09 [INFO] [STDOUT] Finished compiling instruction nodes, inserting new instructions... at 228
+2013-04-09 20:50:09 [INFO] [STDOUT] Finished patching ItemInWorldManager! The game will now continue!
+2013-04-09 20:50:09 [INFO] [STDOUT] Found global block break call: a(Lyc;IIIII)V
+2013-04-09 20:50:09 [INFO] [STDOUT] Inserted instructions!
+2013-04-09 20:50:09 [INFO] [STDOUT] Found target method: n(Lyc;III)V! Looking for landmark...
+2013-04-09 20:50:09 [INFO] [STDOUT] Found insertion point - GETSTATIC followed by IF_ACMPEQ!
+2013-04-09 20:50:09 [INFO] [STDOUT] Does bb equal null?
+2013-04-09 20:50:09 [INFO] [STDOUT] Found landmark! Inserting code...
+2013-04-09 20:50:09 [INFO] [STDOUT] Instructions have been compiled, adding to bytecode...
+2013-04-09 20:50:09 [INFO] [STDOUT] Finished patching BlockDispenser!
+2013-04-09 20:50:10 [INFO] [STDOUT] Transforming up...
+2013-04-09 20:50:10 [INFO] [STDOUT] Inspecting 70 methods...
+2013-04-09 20:50:10 [INFO] [STDOUT] Found matching constructor method in Item: <init>(I)V!
+2013-04-09 20:50:10 [INFO] [STDOUT] Finished patching item-register method into BukkitForge!
+2013-04-09 20:50:10 [INFO] [STDOUT] Manifest-Version=> 1.0
+2013-04-09 20:50:10 [INFO] [STDOUT] Ant-Version=> Apache Ant 1.7.1
+2013-04-09 20:50:10 [INFO] [STDOUT] Created-By=> 20.4-b02-402 (Apple Inc.)
+2013-04-09 20:50:10 [INFO] [STDOUT] THIS SERVER IS RUNNING BUKKITFORGE null-null. JUST IN CASE SOMEONE ASKS!
+2013-04-09 20:50:10 [INFO] [STDOUT] 210 recipes
+2013-04-09 20:50:11 [INFO] [STDOUT] 27 achievements
+2013-04-09 20:50:11 [INFO] [STDOUT] Transforming x using keepcalm.mods.bukkit.asm.replacements.CommandHandler_BukkitForge !test!
+2013-04-09 20:50:12 [INFO] [STDOUT] Transforming net.minecraftforge.common.DimensionManager using keepcalm.mods.bukkit.asm.replacements.DimensionManager_BukkitForge !test!
+2013-04-09 20:50:12 [INFO] [Minecraft] Starting minecraft server version 1.4.7
+2013-04-09 20:50:12 [INFO] [ForgeModLoader] Attempting early MinecraftForge initialization
+2013-04-09 20:50:12 [INFO] [STDOUT] MinecraftForge v6.6.0.497 Initialized
+2013-04-09 20:50:12 [INFO] [ForgeModLoader] MinecraftForge v6.6.0.497 Initialized
+2013-04-09 20:50:12 [INFO] [STDOUT] Replaced 84 ore recipies
+2013-04-09 20:50:12 [INFO] [ForgeModLoader] Completed early MinecraftForge initialization
+2013-04-09 20:50:12 [FINE] [ForgeModLoader] Building injected Mod Containers [cpw.mods.fml.common.FMLDummyContainer, net.minecraftforge.common.ForgeDummyContainer]
+2013-04-09 20:50:12 [FINE] [ForgeModLoader] Attempting to load mods contained in the minecraft jar file and associated classes
+2013-04-09 20:50:12 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/server.jar, examining for mod candidates
+2013-04-09 20:50:12 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/coremods/BukkitForge-1.4.7-257.jar, examining for mod candidates
+2013-04-09 20:50:12 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/argo-2.25.jar
+2013-04-09 20:50:12 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/guava-12.0.1.jar
+2013-04-09 20:50:12 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/asm-all-4.0.jar
+2013-04-09 20:50:12 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/bcprov-jdk15on-147.jar
+2013-04-09 20:50:12 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/commons-lang-2.3.jar
+2013-04-09 20:50:12 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/ebean-2.8.1.jar
+2013-04-09 20:50:12 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/gson-2.1-cb.jar
+2013-04-09 20:50:12 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/sqlite-jdbc-3.7.2.jar
+2013-04-09 20:50:12 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/json-simple-1.1.1.jar
+2013-04-09 20:50:12 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/snakeyaml-1.9.jar
+2013-04-09 20:50:12 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/jansi-1.9.jar
+2013-04-09 20:50:12 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/guava10-renamed.jar
+2013-04-09 20:50:12 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/SpecialSource-1.3-SNAPSHOT.jar
+2013-04-09 20:50:12 [FINE] [ForgeModLoader] Skipping known library file /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/lib/mysql-connector-java-5.1.14.jar
+2013-04-09 20:50:12 [FINE] [ForgeModLoader] Minecraft jar mods loaded successfully
+2013-04-09 20:50:12 [INFO] [ForgeModLoader] Searching /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/mods for mods
+2013-04-09 20:50:12 [FINE] [ForgeModLoader] Ignoring unknown file .DS_Store in mods directory
+2013-04-09 20:50:12 [FINE] [ForgeModLoader] Examining file server.jar for potential mods
+2013-04-09 20:50:12 [FINE] [ForgeModLoader] The mod container server.jar appears to be missing an mcmod.info file
+2013-04-09 20:50:13 [FINE] [ForgeModLoader] Examining file BukkitForge-1.4.7-257.jar for potential mods
+2013-04-09 20:50:13 [FINE] [ForgeModLoader] The mod container BukkitForge-1.4.7-257.jar appears to be missing an mcmod.info file
+2013-04-09 20:50:13 [FINE] [ForgeModLoader] Identified an FMLMod type mod keepcalm.mods.bukkit.BukkitContainer
+2013-04-09 20:50:13 [FINEST] [ForgeModLoader] Parsed dependency info : [] [] []
+2013-04-09 20:50:13 [FINE] [ForgeModLoader] Identified an FMLMod type mod keepcalm.mods.events.BlockBreakContainer
+2013-04-09 20:50:13 [FINEST] [ForgeModLoader] Parsed dependency info : [] [] []
+2013-04-09 20:50:13 [INFO] [ForgeModLoader] Forge Mod Loader has identified 5 mods to load
+2013-04-09 20:50:13 [FINE] [ForgeModLoader] Received a system property request ''
+2013-04-09 20:50:13 [FINE] [ForgeModLoader] System property request managing the state of 0 mods
+2013-04-09 20:50:13 [FINE] [ForgeModLoader] After merging, found state information for 0 mods
+2013-04-09 20:50:13 [FINE] [ForgeModLoader] Activating mod mcp
+2013-04-09 20:50:13 [FINE] [ForgeModLoader] Activating mod FML
+2013-04-09 20:50:13 [FINE] [ForgeModLoader] Activating mod Forge
+2013-04-09 20:50:13 [FINE] [ForgeModLoader] Enabling mod BukkitForge
+2013-04-09 20:50:13 [FINE] [ForgeModLoader] Activating mod BukkitForge
+2013-04-09 20:50:13 [FINE] [ForgeModLoader] Enabling mod BlockBreak
+2013-04-09 20:50:13 [FINE] [ForgeModLoader] Activating mod BlockBreak
+2013-04-09 20:50:13 [FINE] [ForgeModLoader] Verifying mod requirements are satisfied
+2013-04-09 20:50:13 [FINE] [ForgeModLoader] All mod requirements are satisfied
+2013-04-09 20:50:13 [FINE] [ForgeModLoader] Sorting mods into an ordered list
+2013-04-09 20:50:13 [FINE] [ForgeModLoader] Mod sorting completed successfully
+2013-04-09 20:50:13 [FINE] [ForgeModLoader] Mod sorting data:
+2013-04-09 20:50:13 [FINE] [ForgeModLoader] 	BukkitForge(BukkitForge:Unknown): BukkitForge-1.4.7-257.jar ()
+2013-04-09 20:50:13 [FINE] [ForgeModLoader] 	BlockBreak(Block Break Event:1.4.6-0): BukkitForge-1.4.7-257.jar ()
+2013-04-09 20:50:13 [FINER] [ForgeModLoader] Sending event FMLConstructionEvent to mod mcp
+2013-04-09 20:50:13 [FINER] [ForgeModLoader] Sent event FMLConstructionEvent to mod mcp
+2013-04-09 20:50:13 [FINER] [ForgeModLoader] Sending event FMLConstructionEvent to mod FML
+2013-04-09 20:50:13 [FINER] [ForgeModLoader] Sent event FMLConstructionEvent to mod FML
+2013-04-09 20:50:13 [FINER] [ForgeModLoader] Sending event FMLConstructionEvent to mod Forge
+2013-04-09 20:50:13 [FINER] [ForgeModLoader] Sent event FMLConstructionEvent to mod Forge
+2013-04-09 20:50:13 [FINER] [ForgeModLoader] Sending event FMLConstructionEvent to mod BukkitForge
+2013-04-09 20:50:13 [FINEST] [ForgeModLoader] Testing mod BukkitForge to verify it accepts its own version in a remote connection
+2013-04-09 20:50:13 [FINEST] [ForgeModLoader] The mod BukkitForge accepts its own version (Unknown)
+2013-04-09 20:50:13 [WARNING] [ForgeModLoader] The mod id BukkitForge attempted to register a packet handler without specifying channels for it
+2013-04-09 20:50:13 [INFO] [STDOUT] Found target method in NetServerHandler: a(Lfc;)V
+2013-04-09 20:50:13 [INFO] [STDOUT] Found target method: a(Leb;)V! Inserting code...
+2013-04-09 20:50:14 [INFO] [STDOUT] Transforming iv using keepcalm.mods.bukkit.asm.replacements.NetServerHandler_BukkitForge !test!
+2013-04-09 20:50:14 [SEVERE] [Minecraft] BukkitForge plugins may misbehave when using the gui! Run the server with 'nogui'!
+2013-04-09 20:50:14 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into BukkitForge
+2013-04-09 20:50:14 [FINER] [ForgeModLoader] Sent event FMLConstructionEvent to mod BukkitForge
+2013-04-09 20:50:14 [FINER] [ForgeModLoader] Sending event FMLConstructionEvent to mod BlockBreak
+2013-04-09 20:50:14 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into BlockBreak
+2013-04-09 20:50:14 [FINER] [ForgeModLoader] Sent event FMLConstructionEvent to mod BlockBreak
+2013-04-09 20:50:14 [FINE] [ForgeModLoader] Mod signature data:
+2013-04-09 20:50:14 [FINE] [ForgeModLoader] 	mcp(Minecraft Coder Pack:7.26): minecraft.jar (NO VALID CERTIFICATE FOUND)
+2013-04-09 20:50:14 [FINE] [ForgeModLoader] 	FML(Forge Mod Loader:4.7.4.520): coremods (de4cf8a3f3bc15635810044c39240bf96804ea7d)
+2013-04-09 20:50:14 [FINE] [ForgeModLoader] 	Forge(Minecraft Forge:6.6.0.497): coremods (NO VALID CERTIFICATE FOUND)
+2013-04-09 20:50:14 [FINE] [ForgeModLoader] 	BukkitForge(BukkitForge:Unknown): BukkitForge-1.4.7-257.jar (NO VALID CERTIFICATE FOUND)
+2013-04-09 20:50:14 [FINE] [ForgeModLoader] 	BlockBreak(Block Break Event:1.4.6-0): BukkitForge-1.4.7-257.jar (NO VALID CERTIFICATE FOUND)
+2013-04-09 20:50:14 [FINER] [ForgeModLoader] Sending event FMLPreInitializationEvent to mod mcp
+2013-04-09 20:50:14 [FINER] [ForgeModLoader] Sent event FMLPreInitializationEvent to mod mcp
+2013-04-09 20:50:14 [FINER] [ForgeModLoader] Sending event FMLPreInitializationEvent to mod FML
+2013-04-09 20:50:14 [FINER] [ForgeModLoader] Sent event FMLPreInitializationEvent to mod FML
+2013-04-09 20:50:14 [FINER] [ForgeModLoader] Sending event FMLPreInitializationEvent to mod Forge
+2013-04-09 20:50:14 [INFO] [ForgeModLoader] Configured a dormant chunk cache size of 0
+2013-04-09 20:50:14 [FINER] [ForgeModLoader] Sent event FMLPreInitializationEvent to mod Forge
+2013-04-09 20:50:14 [FINER] [ForgeModLoader] Sending event FMLPreInitializationEvent to mod BukkitForge
+2013-04-09 20:50:14 [INFO] [BukkitForge] Initializing configuration...
+2013-04-09 20:50:14 [INFO] [BukkitForge] Set UUID to 1365548638312-1182765419-1.4.7
+2013-04-09 20:50:14 [FINER] [ForgeModLoader] Sent event FMLPreInitializationEvent to mod BukkitForge
+2013-04-09 20:50:14 [FINER] [ForgeModLoader] Sending event FMLPreInitializationEvent to mod BlockBreak
+2013-04-09 20:50:14 [FINER] [ForgeModLoader] Sent event FMLPreInitializationEvent to mod BlockBreak
+2013-04-09 20:50:14 [INFO] [Minecraft] Loading properties
+2013-04-09 20:50:14 [INFO] [Minecraft] Default game type: SURVIVAL
+2013-04-09 20:50:14 [INFO] [Minecraft] Generating keypair
+2013-04-09 20:50:15 [INFO] [Minecraft] Starting Minecraft server on *:25565
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sending event FMLInitializationEvent to mod mcp
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sent event FMLInitializationEvent to mod mcp
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sending event FMLInitializationEvent to mod FML
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sent event FMLInitializationEvent to mod FML
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sending event FMLInitializationEvent to mod Forge
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sent event FMLInitializationEvent to mod Forge
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sending event FMLInitializationEvent to mod BukkitForge
+2013-04-09 20:50:15 [INFO] [BukkitForge] Complete! Registering handlers...
+2013-04-09 20:50:15 [INFO] [STDOUT] Transforming EntitySheep...
+2013-04-09 20:50:15 [INFO] [STDOUT] Class name matched creeper...
+2013-04-09 20:50:15 [INFO] [STDOUT] Found insertion point! inserting code!
+2013-04-09 20:50:15 [INFO] [BukkitForge] Done!
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sent event FMLInitializationEvent to mod BukkitForge
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sending event FMLInitializationEvent to mod BlockBreak
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sent event FMLInitializationEvent to mod BlockBreak
+2013-04-09 20:50:15 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod mcp
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sending event IMCEvent to mod mcp
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sent event IMCEvent to mod mcp
+2013-04-09 20:50:15 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod FML
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sending event IMCEvent to mod FML
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sent event IMCEvent to mod FML
+2013-04-09 20:50:15 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod Forge
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sending event IMCEvent to mod Forge
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sent event IMCEvent to mod Forge
+2013-04-09 20:50:15 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod BukkitForge
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sending event IMCEvent to mod BukkitForge
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sent event IMCEvent to mod BukkitForge
+2013-04-09 20:50:15 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod BlockBreak
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sending event IMCEvent to mod BlockBreak
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sent event IMCEvent to mod BlockBreak
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sending event FMLPostInitializationEvent to mod mcp
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sent event FMLPostInitializationEvent to mod mcp
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sending event FMLPostInitializationEvent to mod FML
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sent event FMLPostInitializationEvent to mod FML
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sending event FMLPostInitializationEvent to mod Forge
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sent event FMLPostInitializationEvent to mod Forge
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sending event FMLPostInitializationEvent to mod BukkitForge
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sent event FMLPostInitializationEvent to mod BukkitForge
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sending event FMLPostInitializationEvent to mod BlockBreak
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sent event FMLPostInitializationEvent to mod BlockBreak
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sending event FMLLoadCompleteEvent to mod mcp
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sent event FMLLoadCompleteEvent to mod mcp
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sending event FMLLoadCompleteEvent to mod FML
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sent event FMLLoadCompleteEvent to mod FML
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sending event FMLLoadCompleteEvent to mod Forge
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sent event FMLLoadCompleteEvent to mod Forge
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sending event FMLLoadCompleteEvent to mod BukkitForge
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sent event FMLLoadCompleteEvent to mod BukkitForge
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sending event FMLLoadCompleteEvent to mod BlockBreak
+2013-04-09 20:50:15 [FINER] [ForgeModLoader] Sent event FMLLoadCompleteEvent to mod BlockBreak
+2013-04-09 20:50:15 [INFO] [ForgeModLoader] Forge Mod Loader has successfully loaded 5 mods
+2013-04-09 20:50:15 [INFO] [Minecraft] Preparing level "world"
+2013-04-09 20:50:15 [FINE] [ForgeModLoader] The difference set is equal
+2013-04-09 20:50:16 [INFO] [STDOUT] Transforming ii using keepcalm.mods.bukkit.asm.replacements.EntityTracker_BukkitForge !test!
+2013-04-09 20:50:16 [INFO] [ForgeModLoader] Loading dimension 0 (world) (ho@13dbe345)
+2013-04-09 20:50:16 [INFO] [ForgeModLoader] Loading dimension 1 (world) (ho@13dbe345)
+2013-04-09 20:50:16 [INFO] [ForgeModLoader] Loading dimension -1 (world) (ho@13dbe345)
+2013-04-09 20:50:16 [INFO] [Minecraft] Preparing start region for level 0
+2013-04-09 20:50:16 [INFO] [Minecraft] Done (1.236s)! For help, type "help" or "?"
+2013-04-09 20:50:16 [FINER] [ForgeModLoader] Sending event FMLServerStartingEvent to mod mcp
+2013-04-09 20:50:16 [FINER] [ForgeModLoader] Sent event FMLServerStartingEvent to mod mcp
+2013-04-09 20:50:16 [FINER] [ForgeModLoader] Sending event FMLServerStartingEvent to mod FML
+2013-04-09 20:50:16 [FINER] [ForgeModLoader] Sent event FMLServerStartingEvent to mod FML
+2013-04-09 20:50:16 [FINER] [ForgeModLoader] Sending event FMLServerStartingEvent to mod Forge
+2013-04-09 20:50:16 [FINER] [ForgeModLoader] Sent event FMLServerStartingEvent to mod Forge
+2013-04-09 20:50:16 [FINER] [ForgeModLoader] Sending event FMLServerStartingEvent to mod BukkitForge
+2013-04-09 20:50:17 [FINER] [ForgeModLoader] Sent event FMLServerStartingEvent to mod BukkitForge
+2013-04-09 20:50:17 [FINER] [ForgeModLoader] Sending event FMLServerStartingEvent to mod BlockBreak
+2013-04-09 20:50:17 [FINER] [ForgeModLoader] Sent event FMLServerStartingEvent to mod BlockBreak
+2013-04-09 20:50:17 [FINER] [ForgeModLoader] Sending event FMLServerStartedEvent to mod mcp
+2013-04-09 20:50:17 [FINER] [ForgeModLoader] Sent event FMLServerStartedEvent to mod mcp
+2013-04-09 20:50:17 [FINER] [ForgeModLoader] Sending event FMLServerStartedEvent to mod FML
+2013-04-09 20:50:17 [FINER] [ForgeModLoader] Sent event FMLServerStartedEvent to mod FML
+2013-04-09 20:50:17 [FINER] [ForgeModLoader] Sending event FMLServerStartedEvent to mod Forge
+2013-04-09 20:50:17 [FINER] [ForgeModLoader] Sent event FMLServerStartedEvent to mod Forge
+2013-04-09 20:50:17 [FINER] [ForgeModLoader] Sending event FMLServerStartedEvent to mod BukkitForge
+2013-04-09 20:50:17 [INFO] [STDOUT] iq['[Mod]'/266, l='world', x=-141.50, y=66.62, z=255.50]
+2013-04-09 20:50:17 [FINER] [ForgeModLoader] Sent event FMLServerStartedEvent to mod BukkitForge
+2013-04-09 20:50:17 [FINER] [ForgeModLoader] Sending event FMLServerStartedEvent to mod BlockBreak
+2013-04-09 20:50:17 [FINER] [ForgeModLoader] Sent event FMLServerStartedEvent to mod BlockBreak
+2013-04-09 20:50:18 [INFO] [STDOUT] IS THE INSTANCE NULL? NO
+2013-04-09 20:50:18 [INFO] [BukkitForge] Starting BukkitForge null-null(CB-Version: git-Bukkit-1.4.5-R1.0-b3000jnks (Really: BukkitForge for MC 1.4.7)).
+2013-04-09 20:50:18 [INFO] [BukkitForge] This server is running BukkitForge version git-Bukkit-1.4.5-R1.0-b3000jnks (Really: BukkitForge for MC 1.4.7) (Implementing API version 1.4.7-R0.1)
+2013-04-09 20:50:18 [INFO] [BukkitForge] Plugin folder doesn't exist: /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/./plugins
+2013-04-09 20:50:18 [INFO] [BukkitForge] Loading PostWorld plugins...
+2013-04-09 20:50:18 [INFO] [BukkitForge] Going to load perms file: permissions.yml
+2013-04-09 20:50:18 [INFO] [BukkitForge] Server permissions file permissions.yml is empty, ignoring it
+2013-04-09 20:50:19 [INFO] [BukkitForge] Loaded plugins: 
+2013-04-09 20:50:29 [INFO] [BukkitForge] Server issued server command: reload
+2013-04-09 20:50:29 [INFO] [BukkitForge] Plugins are being loaded...
+2013-04-09 20:50:29 [INFO] [STDOUT] Mapping loaded 2024 classes, 2184 fields, 3533 methods, flags 30
+2013-04-09 20:50:30 [INFO] [org.anjocaido.groupmanager.GroupManager] [GroupManager] Loading GroupManager v1.9 (2.9.1) (Phoenix)
+2013-04-09 20:50:30 [INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin] [WorldEdit] Loading WorldEdit v5.3
+2013-04-09 20:50:30 [INFO] [com.nijikokun.bukkit.Permissions.Permissions] [Permissions] Loading Permissions v3.1.6
+2013-04-09 20:50:30 [INFO] [com.earth2me.essentials.Essentials] [Essentials] Loading Essentials v2.9.1
+2013-04-09 20:50:30 [INFO] [com.earth2me.essentials.chat.EssentialsChat] [EssentialsChat] Loading EssentialsChat v2.9.1
+2013-04-09 20:50:30 [INFO] [com.earth2me.essentials.protect.EssentialsProtect] [EssentialsProtect] Loading EssentialsProtect v2.9.1
+2013-04-09 20:50:30 [INFO] [com.earth2me.essentials.spawn.EssentialsSpawn] [EssentialsSpawn] Loading EssentialsSpawn v2.9.1
+2013-04-09 20:50:30 [INFO] [org.anjocaido.groupmanager.GroupManager] [GroupManager] Enabling GroupManager v1.9 (2.9.1) (Phoenix)
+2013-04-09 20:50:30 [INFO] [STDOUT] GroupManager - INFO - World Found: nether
+2013-04-09 20:50:30 [INFO] [STDOUT] GroupManager - INFO - World Found: overworld
+2013-04-09 20:50:30 [INFO] [STDOUT] GroupManager - INFO - World Found: the_end
+2013-04-09 20:50:30 [INFO] [STDOUT] GroupManager - INFO - World Found: world
+2013-04-09 20:50:30 [INFO] [STDOUT] GroupManager - INFO - Superperms support enabled.
+2013-04-09 20:50:30 [INFO] [STDOUT] GroupManager - INFO - Scheduled Data Saving is set for every 10 minutes!
+2013-04-09 20:50:30 [INFO] [STDOUT] GroupManager - INFO - Backups will be retained for 24 hours!
+2013-04-09 20:50:30 [INFO] [STDOUT] GroupManager version 1.9 (2.9.1) (Phoenix) is enabled!
+2013-04-09 20:50:30 [INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin] [WorldEdit] Enabling WorldEdit v5.3
+2013-04-09 20:50:30 [INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin] [WorldEdit] Default configuration file written: config.yml
+2013-04-09 20:50:31 [INFO] [com.nijikokun.bukkit.Permissions.Permissions] [Permissions] Enabling Permissions v3.1.6
+2013-04-09 20:50:31 [INFO] [STDOUT] Fake Permissions version 3.1.6 is enabled!
+2013-04-09 20:50:31 [INFO] [com.earth2me.essentials.Essentials] [Essentials] Enabling Essentials v2.9.1
+2013-04-09 20:50:31 [INFO] [Minecraft] Creating empty config: /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/./plugins/Essentials/upgrades-done.yml
+2013-04-09 20:50:31 [INFO] [Minecraft] Creating config from template: /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/./plugins/Essentials/config.yml
+2013-04-09 20:50:31 [FINE] [Minecraft] Aborting ItemSpawnBL read, itemDB not yet loaded.
+2013-04-09 20:50:31 [INFO] [Minecraft] Creating config from template: /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/./plugins/Essentials/worth.yml
+2013-04-09 20:50:32 [INFO] [com.earth2me.essentials.Essentials] [Essentials] This plugin collects minimal statistic data and sends it to http://metrics.essentials3.net.
+2013-04-09 20:50:32 [INFO] [com.earth2me.essentials.Essentials] [Essentials] You can opt out by running /essentials opt-out
+2013-04-09 20:50:32 [INFO] [com.earth2me.essentials.Essentials] [Essentials] This will start 5 minutes after the first admin/op joins.
+2013-04-09 20:50:32 [INFO] [Minecraft] Essentials: Using GroupManager based permissions.
+2013-04-09 20:50:32 [INFO] [com.earth2me.essentials.chat.EssentialsChat] [EssentialsChat] Enabling EssentialsChat v2.9.1
+2013-04-09 20:50:32 [INFO] [com.earth2me.essentials.protect.EssentialsProtect] [EssentialsProtect] Enabling EssentialsProtect v2.9.1
+2013-04-09 20:51:08 [SEVERE] [Minecraft] null
+java.sql.SQLException: Connections could not be acquired from the underlying database!
+	at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:106)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:529)
+	at com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getConnection(AbstractPoolBackedDataSource.java:128)
+	at com.earth2me.essentials.protect.data.ProtectedBlockJDBC.createAndConvertTable(ProtectedBlockJDBC.java:62)
+	at com.earth2me.essentials.protect.data.ProtectedBlockJDBC.<init>(ProtectedBlockJDBC.java:53)
+	at com.earth2me.essentials.protect.data.ProtectedBlockJDBC.<init>(ProtectedBlockJDBC.java:39)
+	at com.earth2me.essentials.protect.data.ProtectedBlockSQLite.<init>(ProtectedBlockSQLite.java:13)
+	at com.earth2me.essentials.protect.EssentialsConnect$ProtectReloader.reloadConfig(EssentialsConnect.java:108)
+	at com.earth2me.essentials.protect.EssentialsConnect.<init>(EssentialsConnect.java:33)
+	at com.earth2me.essentials.protect.EssentialsProtect.onEnable(EssentialsProtect.java:49)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:426)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:383)
+	at org.bukkit.craftbukkit.CraftServer.loadPlugin(CraftServer.java:852)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:836)
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:793)
+	at org.bukkit.Bukkit.reload(Bukkit.java:184)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:23)
+	at keepcalm.mods.bukkit.forgeHandler.commands.CommandExecutor2CommandBase.b(CommandExecutor2CommandBase.java:105)
+	at keepcalm.mods.bukkit.nmsforge.CommandHandlerImpl.a(CommandHandlerImpl.java:92)
+	at x.a(CommandHandler.java:14)
+	at ho.al(DedicatedServer.java:309)
+	at ho.r(DedicatedServer.java:271)
+	at net.minecraft.server.MinecraftServer.q(MinecraftServer.java:599)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:497)
+	at fy.run(SourceFile:849)
+Caused by: com.mchange.v2.resourcepool.CannotAcquireResourceException: A ResourcePool could not acquire a resource from its primary factory or source.
+	at com.mchange.v2.resourcepool.BasicResourcePool.awaitAvailable(BasicResourcePool.java:1319)
+	at com.mchange.v2.resourcepool.BasicResourcePool.prelimCheckoutResource(BasicResourcePool.java:557)
+	at com.mchange.v2.resourcepool.BasicResourcePool.checkoutResource(BasicResourcePool.java:477)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:525)
+	... 24 more
+2013-04-09 20:51:08 [INFO] [com.earth2me.essentials.spawn.EssentialsSpawn] [EssentialsSpawn] Enabling EssentialsSpawn v2.9.1
+2013-04-09 20:51:08 [INFO] [BukkitForge] Going to load perms file: permissions.yml
+2013-04-09 20:51:08 [INFO] [BukkitForge] Server permissions file permissions.yml is empty, ignoring it
+2013-04-09 20:51:08 [INFO] [BukkitForge] CONSOLE: Reload complete.
+2013-04-09 20:51:08 [INFO] [BukkitForge] Stopping BukkitForge null-null
+2013-04-09 20:51:08 [INFO] [com.earth2me.essentials.spawn.EssentialsSpawn] [EssentialsSpawn] Disabling EssentialsSpawn v2.9.1
+2013-04-09 20:51:08 [INFO] [com.earth2me.essentials.protect.EssentialsProtect] [EssentialsProtect] Disabling EssentialsProtect v2.9.1
+2013-04-09 20:51:09 [INFO] [com.earth2me.essentials.chat.EssentialsChat] [EssentialsChat] Disabling EssentialsChat v2.9.1
+2013-04-09 20:51:09 [INFO] [com.earth2me.essentials.Essentials] [Essentials] Disabling Essentials v2.9.1
+2013-04-09 20:51:09 [INFO] [com.nijikokun.bukkit.Permissions.Permissions] [Permissions] Disabling Permissions v3.1.6
+2013-04-09 20:51:09 [INFO] [STDOUT] Fake Permissions version 3.1.6 is disabled!
+2013-04-09 20:51:09 [INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin] [WorldEdit] Disabling WorldEdit v5.3
+2013-04-09 20:51:09 [INFO] [org.anjocaido.groupmanager.GroupManager] [GroupManager] Disabling GroupManager v1.9 (2.9.1) (Phoenix)
+2013-04-09 20:51:09 [INFO] [STDOUT] GroupManager - INFO - Scheduled Data Saving is disabled!
+2013-04-09 20:51:09 [INFO] [STDOUT] GroupManager version 1.9 (2.9.1) (Phoenix) is disabled!
+2013-04-09 20:51:09 [INFO] [Minecraft] Stopping the server
+2013-04-09 20:51:09 [INFO] [BukkitForge] Stopping BukkitForge null-null
+2013-04-09 20:51:09 [INFO] [Minecraft] Stopping the server
+2013-04-09 20:51:09 [INFO] [BukkitForge] Stopping BukkitForge null-null
+2013-04-09 20:51:09 [INFO] [Minecraft] Stopping the server
+2013-04-09 20:51:09 [FINER] [ForgeModLoader] Sending event FMLServerStoppingEvent to mod mcp
+2013-04-09 20:51:09 [FINER] [ForgeModLoader] Sent event FMLServerStoppingEvent to mod mcp
+2013-04-09 20:51:09 [FINER] [ForgeModLoader] Sending event FMLServerStoppingEvent to mod FML
+2013-04-09 20:51:09 [FINER] [ForgeModLoader] Sent event FMLServerStoppingEvent to mod FML
+2013-04-09 20:51:09 [FINER] [ForgeModLoader] Sending event FMLServerStoppingEvent to mod Forge
+2013-04-09 20:51:09 [FINER] [ForgeModLoader] Sent event FMLServerStoppingEvent to mod Forge
+2013-04-09 20:51:09 [FINER] [ForgeModLoader] Sending event FMLServerStoppingEvent to mod BukkitForge
+2013-04-09 20:51:09 [INFO] [BukkitForge] Stopping BukkitForge null-null
+2013-04-09 20:51:09 [FINER] [ForgeModLoader] Sent event FMLServerStoppingEvent to mod BukkitForge
+2013-04-09 20:51:09 [FINER] [ForgeModLoader] Sending event FMLServerStoppingEvent to mod BlockBreak
+2013-04-09 20:51:09 [FINER] [ForgeModLoader] Sent event FMLServerStoppingEvent to mod BlockBreak
+2013-04-09 20:51:09 [INFO] [Minecraft] Stopping server
+2013-04-09 20:51:09 [INFO] [Minecraft] Saving players
+2013-04-09 20:51:09 [INFO] [STDERR] java.net.SocketException: Socket closed
+2013-04-09 20:51:09 [INFO] [Minecraft] Saving worlds
+2013-04-09 20:51:09 [INFO] [STDERR] 	at java.net.PlainSocketImpl.socketAccept(Native Method)
+2013-04-09 20:51:09 [INFO] [STDERR] 	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:398)
+2013-04-09 20:51:09 [INFO] [STDERR] 	at java.net.ServerSocket.implAccept(ServerSocket.java:522)
+2013-04-09 20:51:09 [INFO] [Minecraft] Saving chunks for level 'world'/Overworld
+2013-04-09 20:51:09 [INFO] [STDERR] 	at java.net.ServerSocket.accept(ServerSocket.java:490)
+2013-04-09 20:51:09 [INFO] [STDERR] 	at hu.run(ServerListenThread.java:81)
+2013-04-09 20:51:09 [INFO] [STDOUT] Closing listening thread
+2013-04-09 20:51:09 [INFO] [Minecraft] Saving chunks for level 'world'/Nether
+2013-04-09 20:51:09 [INFO] [Minecraft] Saving chunks for level 'world'/The End
+2013-04-09 20:51:10 [INFO] [ForgeModLoader] Unloading dimension 0
+2013-04-09 20:51:10 [INFO] [ForgeModLoader] Unloading dimension -1
+2013-04-09 20:51:10 [INFO] [ForgeModLoader] Unloading dimension 1
+2013-04-09 20:51:10 [FINER] [ForgeModLoader] Sending event FMLServerStoppedEvent to mod mcp
+2013-04-09 20:51:10 [FINER] [ForgeModLoader] Sent event FMLServerStoppedEvent to mod mcp
+2013-04-09 20:51:10 [FINER] [ForgeModLoader] Sending event FMLServerStoppedEvent to mod FML
+2013-04-09 20:51:10 [FINER] [ForgeModLoader] Sent event FMLServerStoppedEvent to mod FML
+2013-04-09 20:51:10 [FINER] [ForgeModLoader] Sending event FMLServerStoppedEvent to mod Forge
+2013-04-09 20:51:10 [FINER] [ForgeModLoader] Sent event FMLServerStoppedEvent to mod Forge
+2013-04-09 20:51:10 [FINER] [ForgeModLoader] Sending event FMLServerStoppedEvent to mod BukkitForge
+2013-04-09 20:51:10 [FINER] [ForgeModLoader] Sent event FMLServerStoppedEvent to mod BukkitForge
+2013-04-09 20:51:10 [FINER] [ForgeModLoader] Sending event FMLServerStoppedEvent to mod BlockBreak
+2013-04-09 20:51:10 [FINER] [ForgeModLoader] Sent event FMLServerStoppedEvent to mod BlockBreak
