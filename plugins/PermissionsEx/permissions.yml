@@ -2,4 +2,9 @@ groups:
   default:
     default: true
     permissions:
-    - modifyworld.*
+    - essentials.kit
+	- essentials.afk
+	- essentials.msg
+	- essentials.motd
+	- essentials.balance
+	- essentials.pay
