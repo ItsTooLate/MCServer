@@ -629,3 +629,60 @@ java.lang.NullPointerException
 2013-04-09 21:28:02 [INFO] Saving chunks for level 'world'/Overworld
 2013-04-09 21:28:02 [INFO] Saving chunks for level 'world'/Nether
 2013-04-09 21:28:02 [INFO] Saving chunks for level 'world'/The End
+2013-04-09 21:50:51 [INFO] Starting minecraft server version 1.4.7
+2013-04-09 21:50:53 [SEVERE] BukkitForge plugins may misbehave when using the gui! Run the server with 'nogui'!
+2013-04-09 21:50:53 [INFO] Loading properties
+2013-04-09 21:50:53 [INFO] Default game type: SURVIVAL
+2013-04-09 21:50:53 [INFO] Generating keypair
+2013-04-09 21:50:55 [INFO] Starting Minecraft server on *:25565
+2013-04-09 21:50:55 [INFO] Preparing level "world"
+2013-04-09 21:50:56 [INFO] Preparing start region for level 0
+2013-04-09 21:50:57 [INFO] Preparing spawn area: 96%
+2013-04-09 21:50:57 [INFO] Done (1.549s)! For help, type "help" or "?"
+2013-04-09 21:51:00 [INFO] [PermissionsEx] sql backend registered!
+2013-04-09 21:51:00 [INFO] [PermissionsEx] file backend registered!
+2013-04-09 21:51:00 [INFO] [PermissionsEx] PermissionEx plugin initialized.
+2013-04-09 21:51:01 [INFO] [PermissionsEx] Initializing file backend
+2013-04-09 21:51:01 [WARNING] Error loading permissions file:
+ while scanning for the next token
+found character 	'\t' that cannot start any token
+ in "<string>", line 6, column 1:
+    	- essentials.afk
+    ^
+
+2013-04-09 21:51:02 [INFO] [PermissionsEx] Initializing file backend
+2013-04-09 21:51:02 [WARNING] Error loading permissions file:
+ while scanning for the next token
+found character 	'\t' that cannot start any token
+ in "<string>", line 6, column 1:
+    	- essentials.afk
+    ^
+
+2013-04-09 21:51:03 [FINE] Aborting ItemSpawnBL read, itemDB not yet loaded.
+2013-04-09 21:51:04 [INFO] Essentials: Using PermissionsEx based permissions.
+2013-04-09 21:51:04 [INFO] Essentials: Using PermissionsEx based permissions.
+2013-04-09 21:51:04 [INFO] Essentials: Using PermissionsEx based permissions.
+2013-04-09 21:51:04 [INFO] Essentials: Using PermissionsEx based permissions.
+2013-04-09 21:51:04 [INFO] Essentials: Using PermissionsEx based permissions.
+2013-04-09 21:51:12 [INFO] User Rossy2845 connecting with mods []
+2013-04-09 21:51:12 [INFO] Rossy2845[/127.0.0.1:62278] logged in with entity id 267 at (-136.5, 66.62000000476837, 247.5)
+2013-04-09 21:51:12 [INFO] Creating empty config: /Users/patrick/Documents/TechnicDev/Wyatt's server/MCServer/./plugins/Essentials/userdata/rossy2845.yml
+2013-04-09 21:51:13 [WARNING] File motd.txt does not exist. Creating one for you.
+2013-04-09 21:51:15 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2013-04-09 21:51:36 [INFO] Opped rossy2845
+2013-04-09 21:51:43 [INFO] [PLAYER_COMMAND] Rossy2845: /gamemode  
+2013-04-09 21:51:57 [INFO] [PLAYER_COMMAND] Rossy2845: /help  
+2013-04-09 21:52:40 [INFO] [PLAYER_COMMAND] Rossy2845: /help iconomy 
+2013-04-09 21:53:00 [INFO] [PLAYER_COMMAND] Rossy2845: /help iconomy 
+2013-04-09 21:53:03 [INFO] Rossy2845 lost connection: disconnect.quitting
+2013-04-09 21:53:08 [INFO] Essentials: Using PermissionsEx based permissions.
+2013-04-09 21:53:08 [INFO] Essentials: Using PermissionsEx based permissions.
+2013-04-09 21:53:08 [INFO] Essentials: Using PermissionsEx based permissions.
+2013-04-09 21:53:08 [INFO] [PermissionsEx] v1.19.5 disabled successfully.
+2013-04-09 21:53:08 [INFO] Stopping the server
+2013-04-09 21:53:08 [INFO] Stopping server
+2013-04-09 21:53:08 [INFO] Saving players
+2013-04-09 21:53:08 [INFO] Saving worlds
+2013-04-09 21:53:08 [INFO] Saving chunks for level 'world'/Overworld
+2013-04-09 21:53:08 [INFO] Saving chunks for level 'world'/Nether
+2013-04-09 21:53:08 [INFO] Saving chunks for level 'world'/The End
