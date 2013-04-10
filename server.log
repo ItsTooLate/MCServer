@@ -603,3 +603,29 @@ java.lang.NullPointerException
 2013-04-09 21:16:07 [INFO] Stopping server
 2013-04-09 21:16:07 [INFO] Saving players
 2013-04-09 21:16:07 [INFO] Saving worlds
+2013-04-09 21:27:45 [INFO] Starting minecraft server version 1.4.7
+2013-04-09 21:27:47 [SEVERE] BukkitForge plugins may misbehave when using the gui! Run the server with 'nogui'!
+2013-04-09 21:27:47 [INFO] Loading properties
+2013-04-09 21:27:47 [INFO] Default game type: SURVIVAL
+2013-04-09 21:27:47 [INFO] Generating keypair
+2013-04-09 21:27:48 [INFO] Starting Minecraft server on *:25565
+2013-04-09 21:27:49 [INFO] Preparing level "world"
+2013-04-09 21:27:49 [INFO] Preparing start region for level 0
+2013-04-09 21:27:50 [INFO] Done (1.260s)! For help, type "help" or "?"
+2013-04-09 21:27:53 [INFO] [PermissionsEx] sql backend registered!
+2013-04-09 21:27:53 [INFO] [PermissionsEx] file backend registered!
+2013-04-09 21:27:53 [INFO] [PermissionsEx] PermissionEx plugin initialized.
+2013-04-09 21:27:54 [INFO] [PermissionsEx] Initializing file backend
+2013-04-09 21:27:54 [INFO] Permissions file successfully reloaded
+2013-04-09 21:27:55 [INFO] [PermissionsEx] Superperms support enabled.
+2013-04-09 21:27:55 [INFO] [PermissionsEx] v1.19.5 enabled
+2013-04-09 21:27:55 [FINE] Aborting ItemSpawnBL read, itemDB not yet loaded.
+2013-04-09 21:27:56 [INFO] Essentials: Using PermissionsEx based permissions.
+2013-04-09 21:28:02 [INFO] Permissions file successfully reloaded
+2013-04-09 21:28:02 [INFO] [PermissionsEx] v1.19.5 disabled successfully.
+2013-04-09 21:28:02 [INFO] Stopping server
+2013-04-09 21:28:02 [INFO] Saving players
+2013-04-09 21:28:02 [INFO] Saving worlds
+2013-04-09 21:28:02 [INFO] Saving chunks for level 'world'/Overworld
+2013-04-09 21:28:02 [INFO] Saving chunks for level 'world'/Nether
+2013-04-09 21:28:02 [INFO] Saving chunks for level 'world'/The End
